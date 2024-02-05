@@ -7,10 +7,12 @@
         "instrumentType" : "OPTFUT"
     },
     "clientId" : 1101874296,
-    "accessToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA3MTMyOTQ5LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTg3NDI5NiJ9.Z407ex0tQ_Y4kvCeviTfvC0_-nl9bViSmXM_K33m7ims_hS_7nuRX15fis4peoYxR_y8fhUgS2U0Bgzun3VuPA",
+    "accessToken" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzQ2NTA4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTg3NDI5NiJ9.wBn4COUZiWqsyUOrlONXJ4zANffbsrS5IwDAsO75EzEe9rsMGMJdACrNavW2J-dqSzRXLfFaX9EMJty26PSV-A",
     "processStartTime" : "09:15",
     "downLoad" : {
         "downLoadFilePath" : "C:\\Users\\hp\\Downloads",
-        "downLoadTime" : 60
-    }
+        "downLoadTime" : 30
+    },
+    "lotSize" : 1,
+    "enablePrint" : "false"
 }
