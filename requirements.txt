@@ -35,3 +35,4 @@ wsproto==1.2.0
 colorama==0.4.6
 websockets==12.0
 asyncio==3.4.3
+psutil==5.9.8
