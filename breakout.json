@@ -1,13 +1,13 @@
 {
     "dataClient": [
         {
-            "clientId": 1102009773,
-            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzgxMTgwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9.4z49-Q3olDwcQtFkbpBXLCjyxTM3CUnDQ2dj7cWtsaIuI080fpJE54LyXzvmHzGYcOZsysyUTwoNVNmFm4Zxag"
+            "clientId": 
+            "accessToken": 
         }
     ],
     "orderClient": {
-        "clientId": 1102009773,
-        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzgxMTgwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9.4z49-Q3olDwcQtFkbpBXLCjyxTM3CUnDQ2dj7cWtsaIuI080fpJE54LyXzvmHzGYcOZsysyUTwoNVNmFm4Zxag"
+        "clientId": 
+        "accessToken": 
     },
     "processStartTime": "09:15",
     "processEndTime": "15:31",
