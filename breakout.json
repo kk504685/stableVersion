@@ -1,28 +1,54 @@
 {
     "dataClient": [
         {
-            "clientId": 
-            "accessToken": 
-        },
-        {
-            "clientId": 
-            "accessToken": 
+            "clientId": 1102009773,
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzgxMTgwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9.4z49-Q3olDwcQtFkbpBXLCjyxTM3CUnDQ2dj7cWtsaIuI080fpJE54LyXzvmHzGYcOZsysyUTwoNVNmFm4Zxag"
         }
-        
     ],
-    "orderClient":  {
-        "clientId": 
-        "accessToken": 
+    "orderClient": {
+        "clientId": 1102009773,
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzgxMTgwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9.4z49-Q3olDwcQtFkbpBXLCjyxTM3CUnDQ2dj7cWtsaIuI080fpJE54LyXzvmHzGYcOZsysyUTwoNVNmFm4Zxag"
     },
     "processStartTime": "09:15",
     "processEndTime": "15:31",
     "enablePrint": "false",
     "sleepTime": 1.25,
+    "email" : {
+        "emailSender" : "algo.coder.trader@gmail.com",
+        "emailPassword" : "xffackrwlyzqhnek",
+        "emailReceiver" : "algo.coder.trader@gmail.com",
+        "subject" : "Expiry Algo Up.. Verified at ",
+        "emailTimeInterval" : 5
+    },
     "instrument": [
         {
-            "securityId": "1333",
-            "name": "HDFCBANK",
-            "breakOutPrice": 1827,
+            "securityId": "72238",
+            "name": "BANKNIFTY-Feb2024-46600-CE",
+            "breakOutPrice": 400,
+            "breakoutDirection": 1,
+            "breakOutPriceSlippage": 10,
+            "trailingStopLoss": 10,
+            "quantity": 15,
+            "exchangeSegment": "NSE_FNO",
+            "instrumentType": "OPTIDX",
+            "isExecuted": false
+        },
+        {
+            "securityId": "72239",
+            "name": "BANKNIFTY-Feb2024-46600-PE",
+            "breakOutPrice": 450,
+            "breakoutDirection": 1,
+            "breakOutPriceSlippage": 10,
+            "trailingStopLoss": 10,
+            "quantity": 15,
+            "exchangeSegment": "NSE_FNO",
+            "instrumentType": "OPTIDX",
+            "isExecuted": false
+        },
+        {
+            "securityId": "1838",
+            "name": "KARURVYSYA",
+            "breakOutPrice": 190.6,
             "breakoutDirection": 1,
             "breakOutPriceSlippage": 1,
             "trailingStopLoss": 1,
@@ -32,15 +58,15 @@
             "isExecuted": false
         },
         {
-            "securityId": "36745",
-            "name": "FINNIFTY-Feb2024-20550-PE",
-            "breakOutPrice": 84,
+            "securityId": "3787",
+            "name": "WIPRO",
+            "breakOutPrice": 546,
             "breakoutDirection": 1,
-            "breakOutPriceSlippage": 10,
+            "breakOutPriceSlippage": 1,
             "trailingStopLoss": 1,
-            "quantity": 40,
-            "exchangeSegment": "NSE_FNO",
-            "instrumentType": "OPTIDX",
+            "quantity": 1,
+            "exchangeSegment": "NSE_EQ",
+            "instrumentType": "EQUITY",
             "isExecuted": false
         }
     ]

@@ -1,3 +1,41 @@
 {
-  "msg" : "Ask admin to provide content of this mandatory config file"
+    "trade" : {
+        "mode" : "realTime",
+        "name" : "SILVER",
+        "exchangeSegment" : "MCX_COMM",
+        "strikePrice" : 62000,
+        "instrumentType" : "OPTFUT"
+    },
+    "dataClient": [
+        {
+            "clientId": 1101874296,
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzQ2NTA4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTg3NDI5NiJ9.wBn4COUZiWqsyUOrlONXJ4zANffbsrS5IwDAsO75EzEe9rsMGMJdACrNavW2J-dqSzRXLfFaX9EMJty26PSV-A"
+        },
+        {
+            "clientId": 1102009773,
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzgxMTgwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9.4z49-Q3olDwcQtFkbpBXLCjyxTM3CUnDQ2dj7cWtsaIuI080fpJE54LyXzvmHzGYcOZsysyUTwoNVNmFm4Zxag"
+        }
+    ],
+    "orderClient": {
+        "clientId": 1102009773,
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzA5NzgxMTgwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9.4z49-Q3olDwcQtFkbpBXLCjyxTM3CUnDQ2dj7cWtsaIuI080fpJE54LyXzvmHzGYcOZsysyUTwoNVNmFm4Zxag"
+    },
+    "processStartTime" : "09:15",
+    "processEndTime" : "15:31",
+    "downLoad" : {
+        "downLoadFilePath" : "C:\\Users\\hp\\Downloads",
+        "downLoadTime" : 30
+    },
+    "lotSize" : 1,
+    "enablePrint" : "false",
+    "sleepTime" : 2.5,
+    "instrumentToTrade" : ["CALL","PUT"],
+    "tradeLimitPerInstrument" : 3,
+    "email" : {
+        "emailSender" : "algo.coder.trader@gmail.com",
+        "emailPassword" : "xffackrwlyzqhnek",
+        "emailReceiver" : "algo.coder.trader@gmail.com",
+        "subject" : "Expiry Algo Up.. Verified at ",
+        "emailTimeInterval" : 5
+    }
 }
