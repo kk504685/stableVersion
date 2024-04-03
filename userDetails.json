@@ -8,17 +8,17 @@
     },
     "dataClient": [
         {
-            "clientId": 
-            "accessToken": 
+            "clientId": 1102009773,
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
         },
         {
-            "clientId": 
-            "accessToken": 
+            "clientId": 1102009773,
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
         }
     ],
     "orderClient": {
-        "clientId": 
-        "accessToken": 
+        "clientId": 1102009773,
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
     },
     "processStartTime" : "09:15",
     "processEndTime" : "15:31",
@@ -30,7 +30,7 @@
     "enablePrint" : "false",
     "sleepTime" : 2.5,
     "instrumentToTrade" : ["CALL","PUT"],
-    "tradeLimitPerInstrument" : 3,
+    "tradeLimitPerInstrument" : 4,
     "email" : {
         "emailSender" : "algo.coder.trader@gmail.com",
         "emailPassword" : "xffackrwlyzqhnek",

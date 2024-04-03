@@ -1,72 +1,48 @@
 {
     "dataClient": [
         {
-            "clientId": 
-            "accessToken": 
+            "clientId": "1102009773",
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
         }
     ],
     "orderClient": {
-        "clientId": 
-        "accessToken": 
+        "clientId": "1102009773",
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
     },
     "processStartTime": "09:15",
     "processEndTime": "15:31",
     "enablePrint": "false",
-    "sleepTime": 1.25,
-    "email" : {
-        "emailSender" : "algo.coder.trader@gmail.com",
-        "emailPassword" : "xffackrwlyzqhnek",
-        "emailReceiver" : "algo.coder.trader@gmail.com",
-        "subject" : "Expiry Algo Up.. Verified at ",
-        "emailTimeInterval" : 5
+    "sleepTime": 0.1,
+    "email": {
+        "emailSender": "algo.coder.trader@gmail.com",
+        "emailPassword": "xffackrwlyzqhnek",
+        "emailReceiver": "algo.coder.trader@gmail.com",
+        "subject": "Expiry Algo Up.. Verified at ",
+        "emailTimeInterval": 5
     },
     "instrument": [
         {
-            "securityId": "72238",
-            "name": "BANKNIFTY-Feb2024-46600-CE",
-            "breakOutPrice": 400,
+            "securityId": "54004",
+            "name": "BANKNIFTY-Apr2024-47600-CE",
+            "breakOutPrice": 30,
             "breakoutDirection": 1,
-            "breakOutPriceSlippage": 10,
-            "trailingStopLoss": 10,
+            "breakOutPriceSlippage": 5,
+            "trailingStopLoss": 5,
             "quantity": 15,
             "exchangeSegment": "NSE_FNO",
             "instrumentType": "OPTIDX",
-            "isExecuted": false
+            "isExecuted": true
         },
         {
-            "securityId": "72239",
-            "name": "BANKNIFTY-Feb2024-46600-PE",
-            "breakOutPrice": 450,
+            "securityId": "54006",
+            "name": "BANKNIFTY-Apr2024-47600-PE",
+            "breakOutPrice": 70,
             "breakoutDirection": 1,
-            "breakOutPriceSlippage": 10,
-            "trailingStopLoss": 10,
+            "breakOutPriceSlippage": 5,
+            "trailingStopLoss": 5,
             "quantity": 15,
             "exchangeSegment": "NSE_FNO",
             "instrumentType": "OPTIDX",
-            "isExecuted": false
-        },
-        {
-            "securityId": "1838",
-            "name": "KARURVYSYA",
-            "breakOutPrice": 190.6,
-            "breakoutDirection": 1,
-            "breakOutPriceSlippage": 1,
-            "trailingStopLoss": 1,
-            "quantity": 1,
-            "exchangeSegment": "NSE_EQ",
-            "instrumentType": "EQUITY",
-            "isExecuted": false
-        },
-        {
-            "securityId": "3787",
-            "name": "WIPRO",
-            "breakOutPrice": 546,
-            "breakoutDirection": 1,
-            "breakOutPriceSlippage": 1,
-            "trailingStopLoss": 1,
-            "quantity": 1,
-            "exchangeSegment": "NSE_EQ",
-            "instrumentType": "EQUITY",
             "isExecuted": false
         }
     ]
