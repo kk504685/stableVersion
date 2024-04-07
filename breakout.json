@@ -2,12 +2,12 @@
     "dataClient": [
         {
             "clientId": "1102009773",
-            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eysdfvfbbdfbfdJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
         }
     ],
     "orderClient": {
-        "clientId": "1102059773",
-        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MdvdsvsdvsvsiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+        "clientId": "1102009773",
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
     },
     "processStartTime": "09:15",
     "processEndTime": "15:31",
@@ -15,33 +15,33 @@
     "sleepTime": 0.1,
     "email": {
         "emailSender": "algo.coder.trader@gmail.com",
-        "emailPassword": "xffackrwsdvdsvslyzqhnek",
+        "emailPassword": "xffackrwlyzqhnek",
         "emailReceiver": "algo.coder.trader@gmail.com",
-        "subject": "Expiry Algo Up.. Verified at ",
+        "subject": "Breakout Algo Up.. Verified at ",
         "emailTimeInterval": 5
     },
     "instrument": [
         {
-            "securityId": "54004",
-            "name": "BANKNIFTY-Apr2024-47600-CE",
-            "breakOutPrice": 30,
+            "securityId": "858643",
+            "name": "SENSEX-Apr2024-74400-CE",
+            "breakOutPrice": 305,
             "breakoutDirection": 1,
             "breakOutPriceSlippage": 5,
-            "trailingStopLoss": 5,
-            "quantity": 15,
-            "exchangeSegment": "NSE_FNO",
+            "trailingStopLoss": 100,
+            "quantity": 10,
+            "exchangeSegment": "BSE_FNO",
             "instrumentType": "OPTIDX",
-            "isExecuted": true
+            "isExecuted": false
         },
         {
-            "securityId": "54006",
-            "name": "BANKNIFTY-Apr2024-47600-PE",
-            "breakOutPrice": 70,
+            "securityId": "858678",
+            "name": "SENSEX-Apr2024-74200-PE",
+            "breakOutPrice": 305,
             "breakoutDirection": 1,
             "breakOutPriceSlippage": 5,
-            "trailingStopLoss": 5,
-            "quantity": 15,
-            "exchangeSegment": "NSE_FNO",
+            "trailingStopLoss": 100,
+            "quantity": 10,
+            "exchangeSegment": "BSE_FNO",
             "instrumentType": "OPTIDX",
             "isExecuted": false
         }
