@@ -4,8 +4,10 @@ from dhanhq import dhanhq
 from datetime import datetime
 
 generic_directory = os.path.dirname(os.path.abspath(__file__))
+flag_directory = rf"{generic_directory}\flags"
 generic_script_name = os.path.splitext(os.path.basename(__file__))[0]
 generic_logTime = datetime.now().strftime("%d%m%Y%H%M%S")
+openPriceFlagFile = 'openPrice.flag'
 
 def userDetailsJson():
     with open(rf"{generic_directory}\userDetails.json","r") as config:
@@ -16,6 +18,9 @@ def userDetailsJson():
     processStartTime = userDetails.get('processStartTime')
     processStartTimeHour = int(processStartTime[0:2])
     processStartTimeMinute = int(processStartTime[3:5])
+    processEndTime = userDetails.get('processEndTime')
+    processEndTimeHour = int(processEndTime[0:2])
+    processEndTimeMinute = int(processEndTime[3:5])
     currentTimeHour = datetime.now().hour
     currentTimeMinute = datetime.now().minute
     lotSize = userDetails.get('lotSize')
@@ -41,7 +46,7 @@ def userDetailsJson():
         "clientIdToPlaceOrder" : clientIdToPlaceOrder,"accessTokenToPlaceOrder" : accessTokenToPlaceOrder, "sleepTime" : sleepTime, "instrumentToTrade" : instrumentToTrade,
         "isPrintEnabled" : isPrintEnabled, "tradeLimitPerInstrument" : tradeLimitPerInstrument, "email" : email, "emailSender" : emailSender, "emailReceiver" : emailReceiver,
         "emailPassword" : emailPassword, "emailTimeInterval" : emailTimeInterval, "subject" : subject, "dataClient" : dataClient, "orderClient" : orderClient,
-        "downLoad" : downLoad
+        "downLoad" : downLoad, "processEndTime": processEndTime, "processEndTimeHour" : processEndTimeHour, "processEndTimeMinute" : processEndTimeMinute
         }
 
 userDetails = userDetailsJson()
@@ -65,8 +70,14 @@ def indexOpenPrice(security_id, nickname):
                 exchange_segment = 'IDX_I',
                 instrument_type = 'INDEX'
             )
-            openPrice = liveIndexPrice['data']['open'][0]
-            #openPrice = liveIndexPrice
+            if not os.path.exists(rf"{flag_directory}\{openPriceFlagFile}"):
+                with open(rf"{flag_directory}\{openPriceFlagFile}","w") as flag:
+                    openPrice = liveIndexPrice['data']['close'][-1]
+                    json.dump({"openPrice" : openPrice}, flag, indent = 4)
+            else:
+                with open(rf"{flag_directory}\{openPriceFlagFile}","r") as config:
+                    price = json.load(config)
+                    openPrice = price.get('openPrice')
             genericLog(f"indexOpenPrice() --> {nickname} opened at --> {openPrice}")
             return openPrice
         except Exception as e:

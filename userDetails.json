@@ -1,17 +1,17 @@
 {
     "dataClient": [
         {
-            "clientId": 1102649773,
-            "accessToken": "qeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+            "clientId": 1102009773,
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
         },
         {
-            "clientId": 1102649773,
-            "accessToken": "qeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+            "clientId": 1102009773,
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
         }
     ],
     "orderClient": {
-        "clientId": 1102649773,
-        "accessToken": "qeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+        "clientId": 1102009773,
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
     },
     "processStartTime" : "09:15",
     "processEndTime" : "15:31",
@@ -22,11 +22,11 @@
     "lotSize" : 1,
     "enablePrint" : "false",
     "sleepTime" : 2.5,
-    "instrumentToTrade" : ["CALL","PUT"],
+    "instrumentToTrade" : ["CALL", "PUT"],
     "tradeLimitPerInstrument" : 3,
     "email" : {
         "emailSender" : "algo.coder.trader@gmail.com",
-        "emailPassword" : "xxffackrwlyzqhnek",
+        "emailPassword" : "xffackrwlyzqhnek",
         "emailReceiver" : "algo.coder.trader@gmail.com",
         "subject" : "Expiry Algo Up.. Verified at ",
         "emailTimeInterval" : 5

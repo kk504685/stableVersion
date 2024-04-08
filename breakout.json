@@ -1,47 +1,40 @@
 {
     "dataClient": [
         {
-            "clientId": "1102649773",
-            "accessToken": "qeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+            "clientId": "1102009773",
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
         }
     ],
     "orderClient": {
-        "clientId": "1102649773",
-        "accessToken": "qeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+        "clientId": "1102009773",
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
     },
     "processStartTime": "09:15",
     "processEndTime": "15:31",
     "enablePrint": "false",
     "sleepTime": 0.1,
-    "email": {
-        "emailSender": "algo.coder.trader@gmail.com",
-        "emailPassword": "xxffackrwlyzqhnek",
-        "emailReceiver": "algo.coder.trader@gmail.com",
-        "subject": "Breakout Algo Up.. Verified at ",
-        "emailTimeInterval": 5
-    },
     "instrument": [
         {
-            "securityId": "858643",
-            "name": "SENSEX-Apr2024-74400-CE",
-            "breakOutPrice": 305,
+            "securityId": "40976",
+            "name": "MIDCPNIFTY-Apr2024-10925-CE",
+            "breakOutPrice": 15,
             "breakoutDirection": 1,
             "breakOutPriceSlippage": 5,
-            "trailingStopLoss": 100,
-            "quantity": 10,
-            "exchangeSegment": "BSE_FNO",
+            "trailingStopLoss": 10,
+            "quantity": 75,
+            "exchangeSegment": "NSE_FNO",
             "instrumentType": "OPTIDX",
             "isExecuted": false
         },
         {
-            "securityId": "858678",
-            "name": "SENSEX-Apr2024-74200-PE",
-            "breakOutPrice": 305,
+            "securityId": "40966",
+            "name": "MIDCPNIFTY-Apr2024-10875-PE",
+            "breakOutPrice": 40,
             "breakoutDirection": 1,
             "breakOutPriceSlippage": 5,
-            "trailingStopLoss": 100,
-            "quantity": 10,
-            "exchangeSegment": "BSE_FNO",
+            "trailingStopLoss": 20,
+            "quantity": 75,
+            "exchangeSegment": "NSE_FNO",
             "instrumentType": "OPTIDX",
             "isExecuted": false
         }
