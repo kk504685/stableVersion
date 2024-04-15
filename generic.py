@@ -1,4 +1,4 @@
-import os, json
+import os, json, glob, sys
 from time import sleep
 from dhanhq import dhanhq
 from datetime import datetime
@@ -142,12 +142,12 @@ def securityDetails_2():
         genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"{weekday_name} --> {nickname}")
     elif weekday_number == 1:
-        security_id = 27
-        strikePriceGap = 50
-        nickname = "FINNIFTY"
+        security_id = 25
+        strikePriceGap = 100
+        nickname = "BANKNIFTY"
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
-        unit = 40
+        unit = 15
         quantity = userDetails['lotSize'] * unit
         genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"{weekday_name} --> {nickname}")
@@ -248,3 +248,14 @@ def sendEmail(emailSender, emailReceiver, emailPassword, subject):
             smtp.sendmail(emailSender, emailReceiver, em.as_string())
     except Exception as e:
         genericLog("sendEmail() --> Error: {e}")
+
+def delFile(fileDirectory, pattern):
+    try:
+        files_to_delete = glob.glob(rf"{fileDirectory}\{pattern}")
+        for file in files_to_delete:
+            os.remove(rf"{file}")
+            genericLog(rf"{file} file removed")
+    except Exception as e:
+        genericLog(rf"INFO: {file} deletion failed.. Please check.. Process will exit !")
+        genericLog(rf"{e}")
+        sys.exit(0)
