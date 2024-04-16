@@ -9,12 +9,21 @@ generic_directory = os.path.dirname(os.path.abspath(__file__))
 flag_directory = rf"{generic_directory}\flags"
 generic_script_name = os.path.splitext(os.path.basename(__file__))[0]
 generic_logTime = datetime.now().strftime("%d%m%Y")
+script_name = os.path.splitext(os.path.basename(__file__))[0]
 
 if not os.path.exists(rf"{generic_directory}\logs"):
     # Create the folder if it doesn't exist
     os.makedirs(rf"{generic_directory}\logs")
 
-def userDetailsJson():
+def genericLog(text):
+    with open(rf"{generic_directory}\logs\{generic_script_name}_{generic_logTime}.log","a") as log:
+        log.write(f"{datetime.now()} - {text}\n")
+        log.write(f"\n")
+
+def userDetailsJson(script_name):
+
+    genericLog(rf"userDetailsJson(): {script_name} - userDetailsJson function invoked")
+
     with open(rf"{generic_directory}\userDetails.json","r") as config:
         userDetails = json.load(config)
 
@@ -49,15 +58,10 @@ def userDetailsJson():
         "downLoad" : downLoad, "processEndTime": processEndTime, "processEndTimeHour" : processEndTimeHour, "processEndTimeMinute" : processEndTimeMinute
         }
 
-userDetails = userDetailsJson()
+userDetails = userDetailsJson(script_name)
 sleepTime = userDetails['sleepTime']
 
 dhan = dhanhq(userDetails['dataClient'][0]['clientId'],userDetails['dataClient'][0]['accessToken'])
-
-def genericLog(text):
-    with open(rf"{generic_directory}\logs\{generic_script_name}_{generic_logTime}.log","a") as log:
-        log.write(f"{datetime.now()} - {text}\n")
-        log.write(f"\n")
 
 def securityDetails_1(script_name):
     current_datetime = datetime.now()
