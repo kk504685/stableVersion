@@ -59,7 +59,7 @@ def genericLog(text):
         log.write(f"{datetime.now()} - {text}\n")
         log.write(f"\n")
 
-def securityDetails_1():
+def securityDetails_1(script_name):
     current_datetime = datetime.now()
     weekday_number = current_datetime.weekday()
     weekday_name = current_datetime.strftime("%A")
@@ -72,8 +72,8 @@ def securityDetails_1():
         instrumentType = 'OPTIDX'
         unit = 75
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 1:
         security_id = 27
         strikePriceGap = 50
@@ -82,8 +82,8 @@ def securityDetails_1():
         instrumentType = 'OPTIDX'
         unit = 40
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 2:
         security_id = 25
         strikePriceGap = 100
@@ -92,8 +92,8 @@ def securityDetails_1():
         instrumentType = 'OPTIDX'
         unit = 15
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 3:
         security_id = 13
         strikePriceGap = 50
@@ -102,8 +102,8 @@ def securityDetails_1():
         instrumentType = 'OPTIDX'
         unit = 50
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 4:
         security_id = 51
         strikePriceGap = 100
@@ -112,10 +112,10 @@ def securityDetails_1():
         instrumentType = 'OPTIDX'
         unit = 10
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     else:
-        genericLog("Market might be closed today, so assigning any security id for testing")
+        genericLog("securityDetails_1(): {script_name} - Market might be closed today, so assigning any security id for testing")
         security_id = 51
         strikePriceGap = 100
         nickname = "sensex_DUMMY"
@@ -126,7 +126,7 @@ def securityDetails_1():
 
     return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity]
 
-def securityDetails_2():
+def securityDetails_2(script_name):
     current_datetime = datetime.now()
     weekday_number = current_datetime.weekday()
     weekday_name = current_datetime.strftime("%A")
@@ -139,8 +139,8 @@ def securityDetails_2():
         instrumentType = 'OPTIDX'
         unit = 75
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 1:
         security_id = 25
         strikePriceGap = 100
@@ -149,8 +149,8 @@ def securityDetails_2():
         instrumentType = 'OPTIDX'
         unit = 15
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 2:
         security_id = 13
         strikePriceGap = 50
@@ -159,8 +159,8 @@ def securityDetails_2():
         instrumentType = 'OPTIDX'
         unit = 50
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 3:
         security_id = 13
         strikePriceGap = 50
@@ -169,8 +169,8 @@ def securityDetails_2():
         instrumentType = 'OPTIDX'
         unit = 50
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 4:
         security_id = 51
         strikePriceGap = 100
@@ -179,10 +179,10 @@ def securityDetails_2():
         instrumentType = 'OPTIDX'
         unit = 10
         quantity = userDetails['lotSize'] * unit
-        genericLog(rf"quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
-        genericLog(rf"{weekday_name} --> {nickname}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     else:
-        genericLog("Market might be closed today, so assigning any security id for testing")
+        genericLog("securityDetails_2(): {script_name} - Market might be closed today, so assigning any security id for testing")
         security_id = 51
         strikePriceGap = 100
         nickname = "sensex_DUMMY"
@@ -193,10 +193,10 @@ def securityDetails_2():
 
     return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity]
 
-def indexOpenPrice(security_id, nickname):
+def indexOpenPrice(security_id, nickname, script, script_name):
     global sleepTime
     genericLog("#################################################################################################################################################")
-    genericLog(rf"Security Id --> {security_id}")
+    genericLog(rf"indexOpenPrice(): {script_name} - Security Id --> {security_id}")
     openPrice = None
     while True:
         try:
@@ -205,22 +205,22 @@ def indexOpenPrice(security_id, nickname):
                 exchange_segment = 'IDX_I',
                 instrument_type = 'INDEX'
             )
-            if not os.path.exists(rf"{flag_directory}\{nickname}.flag"):
-                with open(rf"{flag_directory}\{nickname}.flag","w") as flag:
+            if not os.path.exists(rf"{flag_directory}\{nickname}_{script}.flag"):
+                with open(rf"{flag_directory}\{nickname}_{script}.flag","w") as flag:
                     openPrice = liveIndexPrice['data']['close'][-1]
                     json.dump({"openPrice" : openPrice}, flag, indent = 4)
             else:
-                with open(rf"{flag_directory}\{nickname}.flag","r") as config:
+                with open(rf"{flag_directory}\{nickname}_{script}.flag","r") as config:
                     price = json.load(config)
                     openPrice = price.get('openPrice')
-            genericLog(f"indexOpenPrice() --> {nickname} opened at --> {openPrice}")
+            genericLog(f"indexOpenPrice(): {script_name} - indexOpenPrice() --> {nickname}_{script} opened at --> {openPrice}")
             return openPrice
         except Exception as e:
-            genericLog(rf"indexOpenPrice() --> Error while calling API, will attempt again..")
+            genericLog(rf"indexOpenPrice(): {script_name} - indexOpenPrice() --> Error while calling API, will attempt again..")
             genericLog(e)
             sleep(sleepTime)
 
-def apiCall(secId, exchangeSegment, instrumentType):
+def apiCall(secId, exchangeSegment, instrumentType, script_name):
     try:
         optionPrice = dhan.intraday_daily_minute_charts(
         security_id = f"{secId}",
@@ -229,11 +229,11 @@ def apiCall(secId, exchangeSegment, instrumentType):
         ) 
         return optionPrice
     except Exception as e:
-        print(rf"apiCall() --> Error while calling API, will attempt again..")
+        print(rf"apiCall(): {script_name} - Error while calling API, will attempt again..")
         print(e)
 
-def sendEmail(emailSender, emailReceiver, emailPassword, subject):
-    genericLog("sendEmail() --> Initiating mail notification")
+def sendEmail(emailSender, emailReceiver, emailPassword, subject, script_name):
+    genericLog(rf"sendEmail(): {script_name} - Initiating mail notification")
     try:
         em = EmailMessage()
         em['From'] = emailSender
@@ -247,15 +247,33 @@ def sendEmail(emailSender, emailReceiver, emailPassword, subject):
             smtp.login(emailSender, emailPassword)
             smtp.sendmail(emailSender, emailReceiver, em.as_string())
     except Exception as e:
-        genericLog("sendEmail() --> Error: {e}")
+        genericLog("sendEmail(): {script_name} - Error: {e}")
 
-def delFile(fileDirectory, pattern):
+def delFile(fileDirectory, pattern, script_name):
     try:
         files_to_delete = glob.glob(rf"{fileDirectory}\{pattern}")
         for file in files_to_delete:
             os.remove(rf"{file}")
-            genericLog(rf"{file} file removed")
+            genericLog(rf"delFile(): {script_name} - {file} file removed")
     except Exception as e:
-        genericLog(rf"INFO: {file} deletion failed.. Please check.. Process will exit !")
+        genericLog(rf"delFile(): {script_name} - INFO: {file} deletion failed.. Please check.. Process will exit !")
         genericLog(rf"{e}")
         sys.exit(0)
+
+def checkOpenPositions(secId, script_name):
+    while True:
+        try:
+            sleep(sleepTime/2)
+            existingPositions = dhan.get_positions()
+            if existingPositions['status'].upper() == 'SUCCESS':
+                for el in existingPositions['data']:
+                    if secId == str(el['securityId']) and el['positionType'].upper() in ['LONG', 'SHORT']:
+                        return True
+                return False
+            else:
+                genericLog(rf"checkOpenPositions(): {script_name} - get_positions() did not return success status, returned data is- {existingPositions}")
+                sleep(sleepTime)
+
+        except Exception as e:
+            genericLog(rf"checkOpenPositions(): {script_name} - Something went wrong while checking existing positions! will try again..")
+            genericLog(rf"{e}")
