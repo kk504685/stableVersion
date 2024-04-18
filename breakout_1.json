@@ -1,0 +1,43 @@
+{
+    "dataClient": [
+        {
+            "clientId": "1102009773",
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+        }
+    ],
+    "orderClient": {
+        "clientId": "1102009773",
+        "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzE0NTMxODc4LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMjAwOTc3MyJ9._92LG_iZVK_NdHDGqgGK_voUAg2P8XtZB8iJIGhSggN_AAaQr7EXm0cul3omhopnLpLYmFnZwPk208poNkLOUQ"
+    },
+    "processStartTime": "09:15",
+    "processEndTime": "15:31",
+    "enablePrint": "false",
+    "sleepTime": 0.1,
+    "deltaPrice": 10,
+    "instrument": [
+        {
+            "securityId": "41728",
+            "name": "NIFTY-Apr2024-22250-CE",
+            "breakOutPrice": 89,
+            "breakoutDirection": 1,
+            "breakOutPriceSlippage": 5,
+            "trailingStopLoss": 50,
+            "quantity": 50,
+            "exchangeSegment": "NSE_FNO",
+            "instrumentType": "OPTIDX",
+            "isExecuted": false
+        },
+        {
+            "securityId": "41715",
+            "name": "NIFTY-Apr2024-22150-PE",
+            "breakOutPrice": 84,
+            "breakoutDirection": 1,
+            "breakOutPriceSlippage": 5,
+            "trailingStopLoss": 50,
+            "quantity": 50,
+            "exchangeSegment": "NSE_FNO",
+            "instrumentType": "OPTIDX",
+            "isExecuted": false
+        }
+    ]
+}
