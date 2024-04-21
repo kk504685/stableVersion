@@ -45,23 +45,33 @@ def userDetailsJson(script_name):
     emailReceiver = email['emailReceiver']
     emailPassword = email['emailPassword']
     emailTimeInterval = email['emailTimeInterval']
-    dataClient = userDetails.get('dataClient')
-    orderClient = userDetails.get('orderClient')
     downLoad = userDetails.get('downLoad')
 
     return {
         "processStartTime" : processStartTime, "processStartTimeHour" : processStartTimeHour,
         "processStartTimeMinute" : processStartTimeMinute, "currentTimeHour" : currentTimeHour, "currentTimeMinute" : currentTimeMinute, "lotSize" : lotSize,
         "sleepTime" : sleepTime, "instrumentToTrade" : instrumentToTrade,
-        "isPrintEnabled" : isPrintEnabled, "tradeLimitPerInstrument" : tradeLimitPerInstrument, "email" : email, "emailSender" : emailSender, "emailReceiver" : emailReceiver,
-        "emailPassword" : emailPassword, "emailTimeInterval" : emailTimeInterval, "dataClient" : dataClient, "orderClient" : orderClient,
+        "isPrintEnabled" : isPrintEnabled, "tradeLimitPerInstrument" : tradeLimitPerInstrument, "email" : email, "emailSender" : emailSender,
+        "emailReceiver" : emailReceiver, "emailPassword" : emailPassword, "emailTimeInterval" : emailTimeInterval,
         "downLoad" : downLoad, "processEndTime": processEndTime, "processEndTimeHour" : processEndTimeHour, "processEndTimeMinute" : processEndTimeMinute
         }
 
 userDetails = userDetailsJson(script_name)
 sleepTime = userDetails['sleepTime']
 
-dhan = dhanhq(userDetails['dataClient'][0]['clientId'],userDetails['dataClient'][0]['accessToken'])
+def apiKey(script_name):
+    genericLog(rf"apiKey(): {script_name}")
+    with open(rf"{generic_directory}\credentials.json","r") as f:
+        clientDetails = json.load(f)
+        dataClient = clientDetails.get('dataClient')
+        orderClient = clientDetails.get('orderClient')
+        return [dataClient, orderClient]
+
+clientDetails = apiKey(script_name)
+dataClient = clientDetails[0]
+orderClient = clientDetails[1]
+
+dhan = dhanhq(dataClient[0]['clientId'],dataClient[0]['accessToken'])
 
 def securityDetails_1(script_name):
     current_datetime = datetime.now()
@@ -136,12 +146,12 @@ def securityDetails_2(script_name):
     weekday_name = current_datetime.strftime("%A")
 
     if weekday_number == 0:
-        security_id = 442
-        strikePriceGap = 25
-        nickname = "MIDCPNIFTY"
-        exchangeSegment = 'NSE_FNO'
+        security_id = 69
+        strikePriceGap = 100
+        nickname = "BANKEX"
+        exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
-        unit = 75
+        unit = 15
         quantity = userDetails['lotSize'] * unit
         genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
@@ -281,3 +291,4 @@ def checkOpenPositions(secId, script_name):
         except Exception as e:
             genericLog(rf"checkOpenPositions(): {script_name} - Something went wrong while checking existing positions! will try again..")
             genericLog(rf"{e}")
+
