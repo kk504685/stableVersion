@@ -37,7 +37,8 @@ def userDetailsJson(script_name):
     currentTimeMinute = datetime.now().minute
     lotSize = userDetails.get('lotSize')
     sleepTime = userDetails.get('sleepTime')
-    instrumentToTrade = userDetails.get('instrumentToTrade')
+    instrumentToTrade_1 = userDetails.get('instrumentToTrade_1')
+    instrumentToTrade_2 = userDetails.get('instrumentToTrade_2')
     isPrintEnabled = userDetails.get('enablePrint')
     tradeLimitPerInstrument = userDetails.get('tradeLimitPerInstrument')
     email = userDetails.get('email')
@@ -50,7 +51,7 @@ def userDetailsJson(script_name):
     return {
         "processStartTime" : processStartTime, "processStartTimeHour" : processStartTimeHour,
         "processStartTimeMinute" : processStartTimeMinute, "currentTimeHour" : currentTimeHour, "currentTimeMinute" : currentTimeMinute, "lotSize" : lotSize,
-        "sleepTime" : sleepTime, "instrumentToTrade" : instrumentToTrade,
+        "sleepTime" : sleepTime, "instrumentToTrade_1" : instrumentToTrade_1, "instrumentToTrade_2" : instrumentToTrade_2,
         "isPrintEnabled" : isPrintEnabled, "tradeLimitPerInstrument" : tradeLimitPerInstrument, "email" : email, "emailSender" : emailSender,
         "emailReceiver" : emailReceiver, "emailPassword" : emailPassword, "emailTimeInterval" : emailTimeInterval,
         "downLoad" : downLoad, "processEndTime": processEndTime, "processEndTimeHour" : processEndTimeHour, "processEndTimeMinute" : processEndTimeMinute
@@ -86,6 +87,8 @@ def securityDetails_1(script_name):
         instrumentType = 'OPTIDX'
         unit = 75
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 30
         genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 1:
@@ -96,6 +99,8 @@ def securityDetails_1(script_name):
         instrumentType = 'OPTIDX'
         unit = 40
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
         genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 2:
@@ -106,6 +111,8 @@ def securityDetails_1(script_name):
         instrumentType = 'OPTIDX'
         unit = 15
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
         genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 3:
@@ -116,6 +123,8 @@ def securityDetails_1(script_name):
         instrumentType = 'OPTIDX'
         unit = 50
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 35
         genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 4:
@@ -126,6 +135,8 @@ def securityDetails_1(script_name):
         instrumentType = 'OPTIDX'
         unit = 10
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
         genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     else:
@@ -137,8 +148,10 @@ def securityDetails_1(script_name):
         instrumentType = 'OPTIDX'
         unit = 10
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
 
-    return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity]
+    return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss]
 
 def securityDetails_2(script_name):
     current_datetime = datetime.now()
@@ -153,6 +166,8 @@ def securityDetails_2(script_name):
         instrumentType = 'OPTIDX'
         unit = 15
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 30
         genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 1:
@@ -163,6 +178,8 @@ def securityDetails_2(script_name):
         instrumentType = 'OPTIDX'
         unit = 15
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
         genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 2:
@@ -173,6 +190,8 @@ def securityDetails_2(script_name):
         instrumentType = 'OPTIDX'
         unit = 50
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
         genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 3:
@@ -183,6 +202,8 @@ def securityDetails_2(script_name):
         instrumentType = 'OPTIDX'
         unit = 50
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
         genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 4:
@@ -193,6 +214,8 @@ def securityDetails_2(script_name):
         instrumentType = 'OPTIDX'
         unit = 10
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
         genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     else:
@@ -204,8 +227,10 @@ def securityDetails_2(script_name):
         instrumentType = 'OPTIDX'
         unit = 10
         quantity = userDetails['lotSize'] * unit
+        breakOutPriceSlippage = 5
+        trailingStopLoss = 50
 
-    return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity]
+    return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss]
 
 def indexOpenPrice(security_id, nickname, script, script_name):
     global sleepTime
@@ -284,6 +309,24 @@ def checkOpenPositions(secId, script_name):
                     if secId == str(el['securityId']) and el['positionType'].upper() in ['LONG', 'SHORT']:
                         return True
                 return False
+            else:
+                genericLog(rf"checkOpenPositions(): {script_name} - get_positions() did not return success status, returned data is- {existingPositions}")
+                sleep(sleepTime)
+
+        except Exception as e:
+            genericLog(rf"checkOpenPositions(): {script_name} - Something went wrong while checking existing positions! will try again..")
+            genericLog(rf"{e}")
+
+def costPrice(secId, script_name):
+    while True:
+        try:
+            sleep(sleepTime/2)
+            existingPositions = dhan.get_positions()
+            if existingPositions['status'].upper() == 'SUCCESS':
+                for el in existingPositions['data']:
+                    if secId == str(el['securityId']) and el['positionType'].upper() in ['LONG', 'SHORT']:
+                        return el['costPrice']
+                genericLog(rf"Cost Price of secId {secId} {el['tradingSymbol']} not returned. Please check immediately !!")
             else:
                 genericLog(rf"checkOpenPositions(): {script_name} - get_positions() did not return success status, returned data is- {existingPositions}")
                 sleep(sleepTime)
