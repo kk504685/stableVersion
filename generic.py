@@ -22,7 +22,7 @@ def genericLog(text):
 
 def userDetailsJson(script_name):
 
-    genericLog(rf"userDetailsJson(): {script_name} - userDetailsJson function invoked")
+    genericLog(rf"userDetailsJson(): {script_name}")
 
     with open(rf"{generic_directory}\userDetails.json","r") as config:
         userDetails = json.load(config)
@@ -35,7 +35,8 @@ def userDetailsJson(script_name):
     processEndTimeMinute = int(processEndTime[3:5])
     currentTimeHour = datetime.now().hour
     currentTimeMinute = datetime.now().minute
-    lotSize = userDetails.get('lotSize')
+    expiryLotSize = userDetails.get('expiryLotSize')
+    breakOutLotSize = userDetails.get('breakOutLotSize')
     sleepTime = userDetails.get('sleepTime')
     instrumentToTrade_1 = userDetails.get('instrumentToTrade_1')
     instrumentToTrade_2 = userDetails.get('instrumentToTrade_2')
@@ -50,7 +51,8 @@ def userDetailsJson(script_name):
 
     return {
         "processStartTime" : processStartTime, "processStartTimeHour" : processStartTimeHour,
-        "processStartTimeMinute" : processStartTimeMinute, "currentTimeHour" : currentTimeHour, "currentTimeMinute" : currentTimeMinute, "lotSize" : lotSize,
+        "processStartTimeMinute" : processStartTimeMinute, "currentTimeHour" : currentTimeHour, "currentTimeMinute" : currentTimeMinute,
+        "expiryLotSize" : expiryLotSize, "breakOutLotSize" : breakOutLotSize,
         "sleepTime" : sleepTime, "instrumentToTrade_1" : instrumentToTrade_1, "instrumentToTrade_2" : instrumentToTrade_2,
         "isPrintEnabled" : isPrintEnabled, "tradeLimitPerInstrument" : tradeLimitPerInstrument, "email" : email, "emailSender" : emailSender,
         "emailReceiver" : emailReceiver, "emailPassword" : emailPassword, "emailTimeInterval" : emailTimeInterval,
@@ -59,6 +61,8 @@ def userDetailsJson(script_name):
 
 userDetails = userDetailsJson(script_name)
 sleepTime = userDetails['sleepTime']
+expiryLotSize = userDetails['expiryLotSize']
+breakOutLotSize = userDetails['breakOutLotSize']
 
 def apiKey(script_name):
     genericLog(rf"apiKey(): {script_name}")
@@ -66,13 +70,11 @@ def apiKey(script_name):
         clientDetails = json.load(f)
         dataClient = clientDetails.get('dataClient')
         orderClient = clientDetails.get('orderClient')
-        return [dataClient, orderClient]
+        return dataClient, orderClient
 
-clientDetails = apiKey(script_name)
-dataClient = clientDetails[0]
-orderClient = clientDetails[1]
-
-dhan = dhanhq(dataClient[0]['clientId'],dataClient[0]['accessToken'])
+dataClient, orderClient = apiKey(script_name)
+dhanData = dhanhq(dataClient['clientId'],dataClient['accessToken'])
+dhanOrder = dhanhq(orderClient['clientId'],orderClient['accessToken'])
 
 def securityDetails_1(script_name):
     current_datetime = datetime.now()
@@ -86,10 +88,15 @@ def securityDetails_1(script_name):
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 75
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
-        trailingStopLoss = 30
-        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 25
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 1:
         security_id = 27
@@ -98,10 +105,15 @@ def securityDetails_1(script_name):
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 40
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
-        trailingStopLoss = 50
-        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 35
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 2:
         security_id = 25
@@ -110,10 +122,15 @@ def securityDetails_1(script_name):
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 15
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
-        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 3:
         security_id = 13
@@ -121,11 +138,16 @@ def securityDetails_1(script_name):
         nickname = "NIFTY"
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
-        unit = 50
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
-        trailingStopLoss = 35
-        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        unit = 25
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 50
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 4:
         security_id = 51
@@ -134,10 +156,15 @@ def securityDetails_1(script_name):
         exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 10
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
-        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_1(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_1(): {script_name} - {weekday_name} --> {nickname}")
     else:
         genericLog("securityDetails_1(): {script_name} - Market might be closed today, so assigning any security id for testing")
@@ -147,8 +174,13 @@ def securityDetails_1(script_name):
         exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 10
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
 
     return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss]
@@ -165,10 +197,15 @@ def securityDetails_2(script_name):
         exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 15
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
-        trailingStopLoss = 30
-        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 50
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 1:
         security_id = 25
@@ -177,10 +214,15 @@ def securityDetails_2(script_name):
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 15
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
-        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 2:
         security_id = 13
@@ -189,10 +231,15 @@ def securityDetails_2(script_name):
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 50
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
-        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 3:
         security_id = 13
@@ -200,11 +247,16 @@ def securityDetails_2(script_name):
         nickname = "NIFTY"
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
-        unit = 50
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        unit = 25
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
-        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     elif weekday_number == 4:
         security_id = 51
@@ -213,10 +265,15 @@ def securityDetails_2(script_name):
         exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 10
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
-        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {userDetails['lotSize']} * {unit} = {quantity}")
+        genericLog(rf"securityDetails_2(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"securityDetails_2(): {script_name} - {weekday_name} --> {nickname}")
     else:
         genericLog("securityDetails_2(): {script_name} - Market might be closed today, so assigning any security id for testing")
@@ -226,8 +283,13 @@ def securityDetails_2(script_name):
         exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
         unit = 10
-        quantity = userDetails['lotSize'] * unit
-        breakOutPriceSlippage = 5
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
         trailingStopLoss = 50
 
     return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss]
@@ -239,12 +301,12 @@ def indexOpenPrice(security_id, nickname, script, script_name):
     openPrice = None
     while True:
         try:
-            liveIndexPrice = dhan.intraday_daily_minute_charts(
+            liveIndexPrice = dhanData.intraday_daily_minute_charts(
                 security_id = f"{security_id}",
                 exchange_segment = 'IDX_I',
                 instrument_type = 'INDEX'
             )
-            if not os.path.exists(rf"{flag_directory}\{nickname}_{script}.flag"):
+            if not os.path.exists(rf"{flag_directory}\{nickname}_{script}.flag") or (os.path.exists(rf"{flag_directory}\{nickname}_{script}.flag") and os.path.getsize(rf"{flag_directory}\{nickname}_{script}.flag") == 0):
                 with open(rf"{flag_directory}\{nickname}_{script}.flag","w") as flag:
                     openPrice = liveIndexPrice['data']['close'][-1]
                     json.dump({"openPrice" : openPrice}, flag, indent = 4)
@@ -260,8 +322,9 @@ def indexOpenPrice(security_id, nickname, script, script_name):
             sleep(sleepTime)
 
 def apiCall(secId, exchangeSegment, instrumentType, script_name):
+    genericLog(rf"apiCall() - {script_name}")
     try:
-        optionPrice = dhan.intraday_daily_minute_charts(
+        optionPrice = dhanData.intraday_daily_minute_charts(
         security_id = f"{secId}",
         exchange_segment = f"{exchangeSegment}",
         instrument_type = f"{instrumentType}"
@@ -289,6 +352,7 @@ def sendEmail(emailSender, emailReceiver, emailPassword, subject, script_name):
         genericLog("sendEmail(): {script_name} - Error: {e}")
 
 def delFile(fileDirectory, pattern, script_name):
+    genericLog(rf"delFile() - {script_name}")
     try:
         files_to_delete = glob.glob(rf"{fileDirectory}\{pattern}")
         for file in files_to_delete:
@@ -300,10 +364,11 @@ def delFile(fileDirectory, pattern, script_name):
         sys.exit(0)
 
 def checkOpenPositions(secId, script_name):
+    genericLog(rf"checkOpenPositions() - {script_name}")
     while True:
         try:
             sleep(sleepTime/2)
-            existingPositions = dhan.get_positions()
+            existingPositions = dhanOrder.get_positions()
             if existingPositions['status'].upper() == 'SUCCESS':
                 for el in existingPositions['data']:
                     if secId == str(el['securityId']) and el['positionType'].upper() in ['LONG', 'SHORT']:
@@ -318,10 +383,11 @@ def checkOpenPositions(secId, script_name):
             genericLog(rf"{e}")
 
 def costPrice(secId, script_name):
+    genericLog(rf"costPrice() - {script_name}")
     while True:
         try:
             sleep(sleepTime/2)
-            existingPositions = dhan.get_positions()
+            existingPositions = dhanOrder.get_positions()
             if existingPositions['status'].upper() == 'SUCCESS':
                 for el in existingPositions['data']:
                     if secId == str(el['securityId']) and el['positionType'].upper() in ['LONG', 'SHORT']:
@@ -334,4 +400,186 @@ def costPrice(secId, script_name):
         except Exception as e:
             genericLog(rf"checkOpenPositions(): {script_name} - Something went wrong while checking existing positions! will try again..")
             genericLog(rf"{e}")
+
+def momentumSecDetails(script_name):
+    securitiesToTrade = []
+    current_datetime = datetime.now()
+    weekday_number = current_datetime.weekday()
+    weekday_name = current_datetime.strftime("%A")
+
+    if weekday_number != 6:
+        security_id = 69
+        strikePriceGap = 100
+        nickname = "BANKEX"
+        exchangeSegment = 'BSE_FNO'
+        instrumentType = 'OPTIDX'
+        unit = 15
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 50
+        genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
+        genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss])
+    if weekday_number != 6:
+        security_id = 442
+        strikePriceGap = 25
+        nickname = "MIDCPNIFTY"
+        exchangeSegment = 'NSE_FNO'
+        instrumentType = 'OPTIDX'
+        unit = 75
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 25
+        genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
+        genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss])
+    if weekday_number != 6:
+        security_id = 27
+        strikePriceGap = 50
+        nickname = "FINNIFTY"
+        exchangeSegment = 'NSE_FNO'
+        instrumentType = 'OPTIDX'
+        unit = 40
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 35
+        genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
+        genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss])
+    if weekday_number != 6:
+        security_id = 25
+        strikePriceGap = 100
+        nickname = "BANKNIFTY"
+        exchangeSegment = 'NSE_FNO'
+        instrumentType = 'OPTIDX'
+        unit = 15
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 50
+        genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
+        genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss])
+    if weekday_number != 6:
+        security_id = 13
+        strikePriceGap = 50
+        nickname = "NIFTY"
+        exchangeSegment = 'NSE_FNO'
+        instrumentType = 'OPTIDX'
+        unit = 25
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 50
+        genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
+        genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss])
+    if weekday_number != 6:
+        security_id = 51
+        strikePriceGap = 100
+        nickname = "SENSEX"
+        exchangeSegment = 'BSE_FNO'
+        instrumentType = 'OPTIDX'
+        unit = 10
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 50
+        genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
+        genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss])
+    else:
+        genericLog("momentumSecDetails(): {script_name} - Market might be closed today, so assigning any security id for testing")
+        security_id = 51
+        strikePriceGap = 100
+        nickname = "sensex_DUMMY"
+        exchangeSegment = 'BSE_FNO'
+        instrumentType = 'OPTIDX'
+        unit = 10
+        if "expiry_" in script_name:
+            quantity = expiryLotSize * unit
+        elif "breakout_" in script_name:
+            quantity = breakOutLotSize * unit
+        else:
+            quantity = breakOutLotSize * unit
+        breakOutPriceSlippage = 15
+        trailingStopLoss = 50
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss])
+
+    return securitiesToTrade
+
+def secIdToTradeFromJson(data, keys_to_exclude, script_name):
+    genericLog(rf"secIdToTradeFromJson() - {script_name}")
+    uniqueSecurityIdCheck = []
+    securitiesToTrade = []
+    for key, value in data.items():
+        if isinstance(value, dict) and key not in keys_to_exclude:
+            for sub_key, sub_value in value.items():
+                if sub_key not in keys_to_exclude:
+                    genericLog(f"{sub_key}: {sub_value}")
+        elif isinstance(value, list) and key not in keys_to_exclude:
+            for item in value:
+                for sub_key, sub_value in item.items():
+                    if sub_key not in keys_to_exclude:
+                        genericLog(f"{sub_key}: {sub_value}")
+        elif key not in keys_to_exclude:
+            genericLog(f"{key}: {value}")
+
+        if key == 'instrument':
+
+            for el in value:
+                uniqueSecurityIdCheck.append(el['securityId'])
+                genericLog(rf"{el}")
+
+                if el['exchangeSegment'] == 'IDX_I':
+                    securitiesToTrade.append((0,el['securityId']))
+
+                elif el['exchangeSegment'] == 'NSE_EQ':
+                    securitiesToTrade.append((1,el['securityId']))
+
+                elif el['exchangeSegment'] == 'NSE_FNO':
+                    securitiesToTrade.append((2,el['securityId']))
+
+                elif el['exchangeSegment'] == 'NSE_CURR':
+                    securitiesToTrade.append((3,el['securityId']))
+
+                elif el['exchangeSegment'] == 'BSE_EQ':
+                    securitiesToTrade.append((4,el['securityId']))
+
+                elif el['exchangeSegment'] == 'MCX':
+                    securitiesToTrade.append((5,el['securityId']))
+
+                elif el['exchangeSegment'] == 'BSE_CURR':
+                    securitiesToTrade.append((7,el['securityId']))
+
+                elif el['exchangeSegment'] == 'BSE_FNO':
+                    securitiesToTrade.append((8,el['securityId']))
+    return uniqueSecurityIdCheck, securitiesToTrade
 

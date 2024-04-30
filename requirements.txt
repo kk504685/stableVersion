@@ -36,3 +36,5 @@ colorama==0.4.6
 websockets==12.0
 asyncio==3.4.3
 psutil==5.9.8
+matplotlib==3.8.4
+mplcursors==0.5.3
