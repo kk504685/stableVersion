@@ -322,7 +322,8 @@ def indexOpenPrice(security_id, nickname, script, script_name):
             sleep(sleepTime)
 
 def apiCall(secId, exchangeSegment, instrumentType, script_name):
-    genericLog(rf"apiCall() - {script_name}")
+    genericLog(rf"apiCall() - {script_name} - {secId}")
+    sleep(sleepTime)
     try:
         optionPrice = dhanData.intraday_daily_minute_charts(
         security_id = f"{secId}",
@@ -331,8 +332,8 @@ def apiCall(secId, exchangeSegment, instrumentType, script_name):
         ) 
         return optionPrice
     except Exception as e:
-        print(rf"apiCall(): {script_name} - Error while calling API, will attempt again..")
-        print(e)
+        genericLog(rf"apiCall(): {script_name} - Error while calling API, will attempt again..")
+        genericLog(e)
 
 def sendEmail(emailSender, emailReceiver, emailPassword, subject, script_name):
     genericLog(rf"sendEmail(): {script_name} - Initiating mail notification")
@@ -364,7 +365,7 @@ def delFile(fileDirectory, pattern, script_name):
         sys.exit(0)
 
 def checkOpenPositions(secId, script_name):
-    genericLog(rf"checkOpenPositions() - {script_name}")
+    #genericLog(rf"checkOpenPositions() - {script_name}")
     while True:
         try:
             sleep(sleepTime/2)
