@@ -1,0 +1,2910 @@
+2024-05-02 09:57:45.733195 - securitiesToTrade --> [(8, '869808'), (8, '870766'), (2, '36610'), (2, '36622'), (2, '36752'), (2, '36801'), (2, '43771'), (2, '43797'), (2, '41302'), (2, '41312'), (8, '869576'), (8, '869631')]
+
+2024-05-02 10:15:16.812429 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '357.30', 'LTT': '10:15:15'}
+
+2024-05-02 10:15:16.812429 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '418.25', 'LTT': '10:15:15'}
+
+2024-05-02 10:15:16.812429 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.20', 'LTT': '10:15:13'}
+
+2024-05-02 10:15:16.812429 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.60', 'LTT': '10:15:15'}
+
+2024-05-02 10:15:16.812429 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '160.65', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.812429 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.95', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.820494 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '488.05', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.820494 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '417.35', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.820494 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '105.50', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.820494 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.35', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.820494 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.80', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.820494 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.35', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.838338 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.15', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:16.909949 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '289.55', 'LTT': '10:15:16'}
+
+2024-05-02 10:15:16.974204 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.80', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:17.150293 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '361.00', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:17.158303 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.15', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:17.283645 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '415.20', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:17.693265 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.00', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:17.835256 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.35', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:17.936232 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.30', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:17.971409 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.25', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:18.035740 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '490.15', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.167069 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '410.30', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.194638 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.30', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:18.210633 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '160.85', 'LTT': '10:15:17'}
+
+2024-05-02 10:15:18.311863 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '457.65', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.484098 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '414.75', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.576839 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '455.35', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.763712 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.10', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.810487 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.35', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.841157 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.60', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:18.890399 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '414.25', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:18.924090 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '415.15', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.986388 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.35', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:18.996558 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.00', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:19.068643 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '491.55', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:19.168062 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.35', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:19.382713 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '454.30', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:19.585855 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.45', 'LTT': '10:15:18'}
+
+2024-05-02 10:15:19.795059 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.40', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:19.819061 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.00', 'LTT': '10:15:19'}
+
+2024-05-02 10:15:19.852085 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.80', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:19.885094 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.90', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:19.976727 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.25', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:20.044265 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.70', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:20.184420 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.65', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:20.278386 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '493.50', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:20.420043 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.45', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:20.622007 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '492.25', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:20.855089 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.50', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:20.888213 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.05', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:20.979719 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.85', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:21.038089 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '411.85', 'LTT': '10:15:20'}
+
+2024-05-02 10:15:21.104128 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.35', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:21.178093 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.25', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:21.424489 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.30', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:21.680178 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '492.20', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:21.905910 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.20', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:21.912427 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.70', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:21.983039 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.15', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:21.999037 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.10', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:22.078939 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '409.30', 'LTT': '10:15:21'}
+
+2024-05-02 10:15:22.147633 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.70', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:22.179627 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.10', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:22.588828 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '455.55', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:22.612822 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '493.10', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:22.825033 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '452.10', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:22.858585 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.80', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:22.891717 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '416.55', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:22.941535 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '289.40', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:22.982364 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.10', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:23.016000 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.65', 'LTT': '10:15:22'}
+
+2024-05-02 10:15:23.073026 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '160.00', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:23.206103 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.40', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:23.377814 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '106.90', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:23.498338 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '360.40', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:23.707518 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '490.10', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:23.840986 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.95', 'LTT': '10:15:24'}
+
+2024-05-02 10:15:23.892287 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '450.60', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:23.915997 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '415.65', 'LTT': '10:15:24'}
+
+2024-05-02 10:15:23.982645 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.95', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:23.990370 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.05', 'LTT': '10:15:23'}
+
+2024-05-02 10:15:24.258617 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.85', 'LTT': '10:15:24'}
+
+2024-05-02 10:15:24.390668 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.50', 'LTT': '10:15:24'}
+
+2024-05-02 10:15:24.625217 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '160.55', 'LTT': '10:15:24'}
+
+2024-05-02 10:15:24.653885 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '489.75', 'LTT': '10:15:24'}
+
+2024-05-02 10:15:24.859622 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.50', 'LTT': '10:15:25'}
+
+2024-05-02 10:15:24.876662 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '416.05', 'LTT': '10:15:25'}
+
+2024-05-02 10:15:25.047597 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '289.70', 'LTT': '10:15:24'}
+
+2024-05-02 10:15:25.394041 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.60', 'LTT': '10:15:25'}
+
+2024-05-02 10:15:25.609936 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '361.75', 'LTT': '10:15:25'}
+
+2024-05-02 10:15:25.663428 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '491.15', 'LTT': '10:15:25'}
+
+2024-05-02 10:15:25.786015 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '450.55', 'LTT': '10:15:25'}
+
+2024-05-02 10:15:25.877010 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.30', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:25.900060 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '415.80', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:25.979471 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '451.25', 'LTT': '10:15:25'}
+
+2024-05-02 10:15:26.092764 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.60', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:26.347711 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.75', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:26.392654 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.45', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:26.427640 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.80', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:26.633528 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '491.80', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:26.783621 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.40', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:26.859748 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.50', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:26.880529 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '414.45', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:26.993218 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.65', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:27.148408 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.40', 'LTT': '10:15:26'}
+
+2024-05-02 10:15:27.187364 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.00', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:27.356292 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '413.85', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:27.403298 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.50', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:27.628098 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '493.25', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:27.716854 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '360.35', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:27.852295 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.95', 'LTT': '10:15:28'}
+
+2024-05-02 10:15:27.891199 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.95', 'LTT': '10:15:28'}
+
+2024-05-02 10:15:27.987223 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.25', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:28.027630 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.95', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:28.188994 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.30', 'LTT': '10:15:28'}
+
+2024-05-02 10:15:28.195370 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.90', 'LTT': '10:15:27'}
+
+2024-05-02 10:15:28.635525 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '493.45', 'LTT': '10:15:28'}
+
+2024-05-02 10:15:28.868544 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.90', 'LTT': '10:15:29'}
+
+2024-05-02 10:15:28.883904 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.80', 'LTT': '10:15:29'}
+
+2024-05-02 10:15:28.986587 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.05', 'LTT': '10:15:28'}
+
+2024-05-02 10:15:28.997525 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.15', 'LTT': '10:15:28'}
+
+2024-05-02 10:15:29.179339 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.85', 'LTT': '10:15:29'}
+
+2024-05-02 10:15:29.621765 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.95', 'LTT': '10:15:29'}
+
+2024-05-02 10:15:29.901202 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.55', 'LTT': '10:15:30'}
+
+2024-05-02 10:15:29.989387 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.80', 'LTT': '10:15:30'}
+
+2024-05-02 10:15:30.188227 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.55', 'LTT': '10:15:30'}
+
+2024-05-02 10:15:30.322569 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.55', 'LTT': '10:15:30'}
+
+2024-05-02 10:15:30.672642 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.15', 'LTT': '10:15:30'}
+
+2024-05-02 10:15:30.848276 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.70', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:30.864003 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '364.65', 'LTT': '10:15:30'}
+
+2024-05-02 10:15:30.898178 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.75', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:30.989254 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.85', 'LTT': '10:15:30'}
+
+2024-05-02 10:15:31.040070 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '450.10', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:31.197628 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.85', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:31.363989 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.00', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:31.625918 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.00', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:31.641909 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.90', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:31.864806 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.50', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:31.904284 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.65', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:31.947511 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '363.95', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:31.989796 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.00', 'LTT': '10:15:31'}
+
+2024-05-02 10:15:32.206091 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.30', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:32.353871 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.35', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:32.406676 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.60', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:32.631495 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '494.15', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:32.815029 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '68.90', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:32.832437 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.50', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:32.882522 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.35', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:32.903442 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '414.00', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:32.990574 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '359.40', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:32.998574 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.15', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:33.131787 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.35', 'LTT': '10:15:32'}
+
+2024-05-02 10:15:33.196855 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '106.85', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:33.465079 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '294.65', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:33.642029 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '492.25', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:33.798659 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.30', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:33.904514 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '414.25', 'LTT': '10:15:34'}
+
+2024-05-02 10:15:33.995542 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.60', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:34.033782 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.50', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:34.074924 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.80', 'LTT': '10:15:34'}
+
+2024-05-02 10:15:34.205258 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '445.00', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:34.493125 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '106.05', 'LTT': '10:15:34'}
+
+2024-05-02 10:15:34.493125 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '160.65', 'LTT': '10:15:33'}
+
+2024-05-02 10:15:34.518311 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.45', 'LTT': '10:15:34'}
+
+2024-05-02 10:15:34.643263 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '492.20', 'LTT': '10:15:34'}
+
+2024-05-02 10:15:34.801205 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '294.70', 'LTT': '10:15:34'}
+
+2024-05-02 10:15:34.858179 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.60', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.006269 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '169.00', 'LTT': '10:15:34'}
+
+2024-05-02 10:15:35.100186 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.70', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.251488 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '446.20', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.389512 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.40', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.507745 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.00', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.575204 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.60', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.642730 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '494.20', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.826007 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.75', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:35.878140 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.15', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:35.910253 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.40', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:36.002354 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.40', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:36.198221 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '363.35', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:36.219108 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.35', 'LTT': '10:15:35'}
+
+2024-05-02 10:15:36.488051 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.15', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:36.568813 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '444.00', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:36.603574 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.90', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:36.662089 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.45', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:36.857462 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.20', 'LTT': '10:15:36'}
+
+2024-05-02 10:15:36.953172 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.75', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:37.420357 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.65', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:37.648053 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '443.95', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:37.656885 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '493.55', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:37.675455 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.65', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:37.868621 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.70', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:37.948031 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.20', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:38.022954 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.00', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:38.112671 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.60', 'LTT': '10:15:38'}
+
+2024-05-02 10:15:38.206484 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.20', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:38.416875 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '106.85', 'LTT': '10:15:38'}
+
+2024-05-02 10:15:38.431393 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '444.70', 'LTT': '10:15:37'}
+
+2024-05-02 10:15:38.649791 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '494.05', 'LTT': '10:15:38'}
+
+2024-05-02 10:15:38.704771 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '445.25', 'LTT': '10:15:38'}
+
+2024-05-02 10:15:38.881770 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.35', 'LTT': '10:15:39'}
+
+2024-05-02 10:15:39.310399 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.75', 'LTT': '10:15:39'}
+
+2024-05-02 10:15:39.405907 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.95', 'LTT': '10:15:39'}
+
+2024-05-02 10:15:39.423175 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.85', 'LTT': '10:15:39'}
+
+2024-05-02 10:15:39.513927 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '447.80', 'LTT': '10:15:39'}
+
+2024-05-02 10:15:39.640252 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '494.45', 'LTT': '10:15:39'}
+
+2024-05-02 10:15:39.788030 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.80', 'LTT': '10:15:39'}
+
+2024-05-02 10:15:40.070965 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.95', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:40.207225 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.25', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:40.347834 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.95', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:40.424952 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.30', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:40.601806 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '447.60', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:40.693992 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.05', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:40.832753 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.25', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:41.081950 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.75', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:41.215370 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.20', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:41.226772 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '68.95', 'LTT': '10:15:40'}
+
+2024-05-02 10:15:41.271739 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.80', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:41.396567 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.15', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:41.411561 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.15', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:41.607870 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.50', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:41.675588 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '496.00', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:41.874737 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '289.90', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:42.132994 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.90', 'LTT': '10:15:42'}
+
+2024-05-02 10:15:42.208477 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.35', 'LTT': '10:15:42'}
+
+2024-05-02 10:15:42.348163 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.55', 'LTT': '10:15:42'}
+
+2024-05-02 10:15:42.667894 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.70', 'LTT': '10:15:42'}
+
+2024-05-02 10:15:42.835004 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.60', 'LTT': '10:15:41'}
+
+2024-05-02 10:15:42.843012 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.85', 'LTT': '10:15:42'}
+
+2024-05-02 10:15:42.909154 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.50', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:42.926680 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '289.00', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.174500 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.60', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.210094 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.00', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.500211 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.75', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.617802 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '365.75', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.625834 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.35', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.717233 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '450.50', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.815158 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.35', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.847217 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.90', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:43.889530 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.85', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:43.917003 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.55', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:43.995249 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.35', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:44.212369 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.05', 'LTT': '10:15:43'}
+
+2024-05-02 10:15:44.220365 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.70', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:44.236087 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.00', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:44.455072 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.05', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:44.812026 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '450.10', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:44.853384 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.70', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:44.912275 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.50', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:45.031513 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.45', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:45.084645 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.30', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:45.212870 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.15', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:45.212924 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.90', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:45.452926 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.50', 'LTT': '10:15:44'}
+
+2024-05-02 10:15:45.533977 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '405.30', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:45.670731 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '365.80', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:45.851852 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.60', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:45.879771 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.85', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:45.915608 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.65', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:46.079890 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.40', 'LTT': '10:15:45'}
+
+2024-05-02 10:15:46.113476 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.65', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:46.213395 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.50', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:46.247649 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.05', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:46.332953 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.10', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:46.699290 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '365.80', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:46.883669 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.80', 'LTT': '10:15:47'}
+
+2024-05-02 10:15:46.917723 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.25', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:47.030909 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.90', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:47.056719 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.65', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:47.064741 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.35', 'LTT': '10:15:47'}
+
+2024-05-02 10:15:47.129295 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.00', 'LTT': '10:15:46'}
+
+2024-05-02 10:15:47.229428 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.30', 'LTT': '10:15:47'}
+
+2024-05-02 10:15:47.838551 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.15', 'LTT': '10:15:47'}
+
+2024-05-02 10:15:47.880705 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.05', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.116814 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.30', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.216181 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.65', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.264424 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.25', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.418804 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.40', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.464763 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.40', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.665175 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.85', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.831744 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.85', 'LTT': '10:15:48'}
+
+2024-05-02 10:15:48.903948 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.60', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.012860 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.85', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.215359 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.80', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.239357 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.40', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.266900 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '451.65', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.441211 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.50', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.458879 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.10', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.639434 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.45', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.932995 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.95', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.932995 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '363.00', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:49.932995 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.30', 'LTT': '10:15:50'}
+
+2024-05-02 10:15:50.082946 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.00', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:50.084735 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.20', 'LTT': '10:15:50'}
+
+2024-05-02 10:15:50.220073 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.10', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:50.228108 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.40', 'LTT': '10:15:50'}
+
+2024-05-02 10:15:50.300523 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.30', 'LTT': '10:15:49'}
+
+2024-05-02 10:15:50.867078 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '496.25', 'LTT': '10:15:50'}
+
+2024-05-02 10:15:50.904114 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.05', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:50.922001 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.80', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.217405 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.85', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.225405 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.50', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.246608 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.35', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.342284 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.55', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.601789 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.65', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.718205 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.25', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.850003 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.00', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:51.934766 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.85', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.000877 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '364.55', 'LTT': '10:15:51'}
+
+2024-05-02 10:15:52.216421 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.45', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.383920 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.80', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.420878 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.00', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.454217 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.00', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.636596 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.95', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.680424 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.35', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.869078 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.35', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.891160 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.10', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.912925 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '406.10', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:52.935825 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.30', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:53.062309 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '363.95', 'LTT': '10:15:52'}
+
+2024-05-02 10:15:53.089198 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.35', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:53.221448 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.90', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:53.229450 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.25', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:53.438468 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.80', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:53.690283 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.95', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:53.698307 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.00', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:53.903537 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.80', 'LTT': '10:15:54'}
+
+2024-05-02 10:15:53.926567 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '414.15', 'LTT': '10:15:54'}
+
+2024-05-02 10:15:54.228446 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.35', 'LTT': '10:15:54'}
+
+2024-05-02 10:15:54.304442 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.85', 'LTT': '10:15:53'}
+
+2024-05-02 10:15:54.495765 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.90', 'LTT': '10:15:54'}
+
+2024-05-02 10:15:54.663925 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '496.20', 'LTT': '10:15:54'}
+
+2024-05-02 10:15:54.894234 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.75', 'LTT': '10:15:55'}
+
+2024-05-02 10:15:54.929176 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.75', 'LTT': '10:15:55'}
+
+2024-05-02 10:15:55.246809 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.85', 'LTT': '10:15:55'}
+
+2024-05-02 10:15:55.555326 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '294.00', 'LTT': '10:15:55'}
+
+2024-05-02 10:15:55.664172 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.30', 'LTT': '10:15:55'}
+
+2024-05-02 10:15:55.939136 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.55', 'LTT': '10:15:56'}
+
+2024-05-02 10:15:56.305841 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.30', 'LTT': '10:15:56'}
+
+2024-05-02 10:15:56.638739 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.75', 'LTT': '10:15:56'}
+
+2024-05-02 10:15:56.673720 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.50', 'LTT': '10:15:56'}
+
+2024-05-02 10:15:56.681757 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '452.20', 'LTT': '10:15:56'}
+
+2024-05-02 10:15:56.840712 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.60', 'LTT': '10:15:56'}
+
+2024-05-02 10:15:56.915291 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.55', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:56.939106 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.40', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:57.427267 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.85', 'LTT': '10:15:56'}
+
+2024-05-02 10:15:57.427267 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.50', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:57.655736 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '292.90', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:57.682729 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.60', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:57.841607 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.75', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:57.866501 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.95', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:57.890974 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.60', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:57.940820 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.55', 'LTT': '10:15:58'}
+
+2024-05-02 10:15:58.091428 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.30', 'LTT': '10:15:58'}
+
+2024-05-02 10:15:58.247073 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.60', 'LTT': '10:15:58'}
+
+2024-05-02 10:15:58.432945 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.90', 'LTT': '10:15:58'}
+
+2024-05-02 10:15:58.631136 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.65', 'LTT': '10:15:57'}
+
+2024-05-02 10:15:58.679142 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '499.15', 'LTT': '10:15:58'}
+
+2024-05-02 10:15:58.699638 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.55', 'LTT': '10:15:58'}
+
+2024-05-02 10:15:58.867507 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.75', 'LTT': '10:15:58'}
+
+2024-05-02 10:15:58.899830 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.95', 'LTT': '10:15:59'}
+
+2024-05-02 10:15:58.939861 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.05', 'LTT': '10:15:59'}
+
+2024-05-02 10:15:59.426552 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.80', 'LTT': '10:15:59'}
+
+2024-05-02 10:15:59.426552 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.40', 'LTT': '10:15:59'}
+
+2024-05-02 10:15:59.469649 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.35', 'LTT': '10:15:59'}
+
+2024-05-02 10:15:59.769707 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.00', 'LTT': '10:15:59'}
+
+2024-05-02 10:15:59.858032 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '453.90', 'LTT': '10:15:59'}
+
+2024-05-02 10:15:59.882099 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.05', 'LTT': '10:16:00'}
+
+2024-05-02 10:15:59.930892 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.60', 'LTT': '10:16:00'}
+
+2024-05-02 10:15:59.941693 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.40', 'LTT': '10:16:00'}
+
+2024-05-02 10:16:00.016331 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.60', 'LTT': '10:16:00'}
+
+2024-05-02 10:16:00.245420 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.40', 'LTT': '10:16:00'}
+
+2024-05-02 10:16:00.427137 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.35', 'LTT': '10:16:00'}
+
+2024-05-02 10:16:00.897653 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.75', 'LTT': '10:16:01'}
+
+2024-05-02 10:16:01.027286 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.25', 'LTT': '10:16:01'}
+
+2024-05-02 10:16:01.080454 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.10', 'LTT': '10:16:01'}
+
+2024-05-02 10:16:01.266308 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.20', 'LTT': '10:16:01'}
+
+2024-05-02 10:16:01.444301 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.25', 'LTT': '10:16:00'}
+
+2024-05-02 10:16:01.712896 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '452.20', 'LTT': '10:16:01'}
+
+2024-05-02 10:16:01.911498 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.25', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:01.971234 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.95', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.044216 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '452.20', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.092222 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.85', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.111036 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.15', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.436585 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.90', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.452590 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.45', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.765794 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.30', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.895693 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.50', 'LTT': '10:16:02'}
+
+2024-05-02 10:16:02.918277 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.35', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:02.941736 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.50', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:03.080420 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.25', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:03.155082 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '294.00', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:03.237267 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.65', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:03.432122 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.25', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:03.828626 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.25', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:03.847846 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.15', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:03.936648 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.55', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:03.963632 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '294.30', 'LTT': '10:16:03'}
+
+2024-05-02 10:16:04.095656 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.55', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.111650 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.30', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.205043 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.10', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.237075 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.45', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.431750 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.00', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.500931 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.95', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.672464 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '369.55', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.897872 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '448.95', 'LTT': '10:16:04'}
+
+2024-05-02 10:16:04.916990 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.85', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:04.964691 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.05', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:05.248870 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '106.60', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:05.282347 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '402.00', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:05.450526 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.65', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:05.716057 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '496.20', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:05.732033 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '363.85', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:05.903131 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '59.05', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:05.936993 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.35', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:05.954967 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '442.55', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:05.991798 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '363.00', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:06.055783 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '297.05', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:06.244508 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '106.50', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:06.289750 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.05', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:06.355992 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '408.90', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:06.437144 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '169.35', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:06.692169 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.35', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:06.780847 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '363.25', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:06.857038 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.95', 'LTT': '10:16:05'}
+
+2024-05-02 10:16:06.906573 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.65', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:06.951518 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.20', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:07.035358 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '447.10', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:07.106238 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '297.30', 'LTT': '10:16:06'}
+
+2024-05-02 10:16:07.253989 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '107.10', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:07.274318 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '449.65', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:07.377429 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '295.75', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:07.450250 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '169.25', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:07.725266 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.85', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:07.892157 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.75', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:07.952494 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.50', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:08.093509 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '447.95', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:08.132106 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.00', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:08.175750 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.60', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:08.252163 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.20', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:08.409265 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '293.25', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:08.452096 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.95', 'LTT': '10:16:07'}
+
+2024-05-02 10:16:08.653367 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.85', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:08.693743 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '496.90', 'LTT': '10:16:08'}
+
+2024-05-02 10:16:08.918389 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '58.20', 'LTT': '10:16:09'}
+
+2024-05-02 10:16:08.968458 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.45', 'LTT': '10:16:09'}
+
+2024-05-02 10:16:09.241119 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '291.80', 'LTT': '10:16:09'}
+
+2024-05-02 10:16:09.258163 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.00', 'LTT': '10:16:09'}
+
+2024-05-02 10:16:09.449917 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.65', 'LTT': '10:16:09'}
+
+2024-05-02 10:16:09.513441 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.50', 'LTT': '10:16:09'}
+
+2024-05-02 10:16:09.718497 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.10', 'LTT': '10:16:09'}
+
+2024-05-02 10:16:09.924538 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.85', 'LTT': '10:16:10'}
+
+2024-05-02 10:16:10.038820 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.00', 'LTT': '10:16:10'}
+
+2024-05-02 10:16:10.257536 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.40', 'LTT': '10:16:10'}
+
+2024-05-02 10:16:10.443797 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.30', 'LTT': '10:16:10'}
+
+2024-05-02 10:16:10.510639 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.40', 'LTT': '10:16:10'}
+
+2024-05-02 10:16:11.003235 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.95', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.006151 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.65', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.038054 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '371.50', 'LTT': '10:16:10'}
+
+2024-05-02 10:16:11.121625 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.45', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.249528 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.00', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.289836 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.35', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.305838 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.95', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.458537 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.25', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.512104 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '457.95', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.689030 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.50', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:11.888015 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.55', 'LTT': '10:16:11'}
+
+2024-05-02 10:16:12.145282 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.85', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.156254 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '403.40', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.245814 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.00', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.355398 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.10', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.466030 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.60', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.578046 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.00', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.610045 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.55', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.665524 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '399.50', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.698573 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.85', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:12.896897 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.65', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:13.165850 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '402.05', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.256048 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.15', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.322803 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.90', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.370330 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.95', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.408171 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.40', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.441601 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.95', 'LTT': '10:16:12'}
+
+2024-05-02 10:16:13.675558 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.95', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.716549 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.85', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.716549 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '394.40', 'LTT': '10:16:13'}
+
+2024-05-02 10:16:13.922416 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.30', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.246810 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.65', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.374855 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '401.35', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.433188 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.30', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.441211 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.70', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.463791 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.30', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.508267 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.05', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.676560 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.40', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.700690 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '508.00', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:14.938436 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.00', 'LTT': '10:16:15'}
+
+2024-05-02 10:16:15.076250 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '91.10', 'LTT': '10:16:15'}
+
+2024-05-02 10:16:15.250642 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.90', 'LTT': '10:16:15'}
+
+2024-05-02 10:16:15.399560 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '402.75', 'LTT': '10:16:15'}
+
+2024-05-02 10:16:15.481528 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.15', 'LTT': '10:16:15'}
+
+2024-05-02 10:16:15.710218 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '509.80', 'LTT': '10:16:15'}
+
+2024-05-02 10:16:15.875378 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.35', 'LTT': '10:16:14'}
+
+2024-05-02 10:16:16.124228 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.00', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.260104 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.80', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.286845 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.90', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.447341 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.60', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.550323 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.20', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.577483 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.65', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.584523 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '401.55', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.826296 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.95', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.846860 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.65', 'LTT': '10:16:16'}
+
+2024-05-02 10:16:16.899034 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.95', 'LTT': '10:16:17'}
+
+2024-05-02 10:16:16.930775 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.75', 'LTT': '10:16:17'}
+
+2024-05-02 10:16:16.963457 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '401.75', 'LTT': '10:16:17'}
+
+2024-05-02 10:16:17.452473 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.15', 'LTT': '10:16:17'}
+
+2024-05-02 10:16:17.594511 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '461.00', 'LTT': '10:16:17'}
+
+2024-05-02 10:16:17.898250 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.30', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:17.931093 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.50', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:17.985526 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.00', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:18.078364 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.00', 'LTT': '10:16:17'}
+
+2024-05-02 10:16:18.271022 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.20', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:18.434604 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '369.20', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:18.450605 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.70', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:18.696152 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '453.60', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:18.927822 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.00', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:18.935785 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.45', 'LTT': '10:16:19'}
+
+2024-05-02 10:16:18.995313 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.70', 'LTT': '10:16:19'}
+
+2024-05-02 10:16:19.095261 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.30', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:19.104803 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.20', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:19.273207 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.30', 'LTT': '10:16:19'}
+
+2024-05-02 10:16:19.461937 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.75', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:19.554099 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.00', 'LTT': '10:16:19'}
+
+2024-05-02 10:16:19.719969 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '454.40', 'LTT': '10:16:18'}
+
+2024-05-02 10:16:20.014647 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '455.85', 'LTT': '10:16:19'}
+
+2024-05-02 10:16:20.046250 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '289.70', 'LTT': '10:16:19'}
+
+2024-05-02 10:16:20.104263 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.40', 'LTT': '10:16:20'}
+
+2024-05-02 10:16:20.141422 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.15', 'LTT': '10:16:20'}
+
+2024-05-02 10:16:20.174236 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.00', 'LTT': '10:16:20'}
+
+2024-05-02 10:16:20.265209 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.60', 'LTT': '10:16:20'}
+
+2024-05-02 10:16:21.021443 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '289.55', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.097271 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.30', 'LTT': '10:16:20'}
+
+2024-05-02 10:16:21.130670 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.40', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.156822 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.30', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.183279 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.75', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.282857 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.40', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.303265 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.00', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.466141 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.75', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.840413 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.60', 'LTT': '10:16:21'}
+
+2024-05-02 10:16:21.940367 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.00', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.090560 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '457.45', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.269642 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.25', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.383572 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.10', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.391571 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.85', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.455250 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.75', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.707927 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.50', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.872954 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.00', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.891266 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.00', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.907983 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.60', 'LTT': '10:16:22'}
+
+2024-05-02 10:16:22.950316 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.40', 'LTT': '10:16:23'}
+
+2024-05-02 10:16:23.091502 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.85', 'LTT': '10:16:23'}
+
+2024-05-02 10:16:23.267434 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.80', 'LTT': '10:16:23'}
+
+2024-05-02 10:16:23.374147 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.55', 'LTT': '10:16:23'}
+
+2024-05-02 10:16:23.725606 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.45', 'LTT': '10:16:23'}
+
+2024-05-02 10:16:23.937784 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.55', 'LTT': '10:16:23'}
+
+2024-05-02 10:16:23.966814 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:16:24'}
+
+2024-05-02 10:16:23.966814 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.00', 'LTT': '10:16:23'}
+
+2024-05-02 10:16:24.392002 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.35', 'LTT': '10:16:24'}
+
+2024-05-02 10:16:24.483907 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.20', 'LTT': '10:16:24'}
+
+2024-05-02 10:16:24.507906 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.95', 'LTT': '10:16:24'}
+
+2024-05-02 10:16:24.911213 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.95', 'LTT': '10:16:24'}
+
+2024-05-02 10:16:24.976989 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.05', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:24.985159 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.60', 'LTT': '10:16:24'}
+
+2024-05-02 10:16:25.057725 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.35', 'LTT': '10:16:24'}
+
+2024-05-02 10:16:25.068617 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.70', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:25.252428 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.60', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:25.468865 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.70', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:25.585889 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.10', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:25.944322 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.65', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:25.977728 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.55', 'LTT': '10:16:26'}
+
+2024-05-02 10:16:26.036042 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.25', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:26.278246 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.60', 'LTT': '10:16:26'}
+
+2024-05-02 10:16:26.300336 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.40', 'LTT': '10:16:25'}
+
+2024-05-02 10:16:26.670169 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.80', 'LTT': '10:16:26'}
+
+2024-05-02 10:16:26.719916 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.95', 'LTT': '10:16:26'}
+
+2024-05-02 10:16:26.950580 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.40', 'LTT': '10:16:27'}
+
+2024-05-02 10:16:26.977360 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.95', 'LTT': '10:16:27'}
+
+2024-05-02 10:16:27.276055 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.00', 'LTT': '10:16:27'}
+
+2024-05-02 10:16:27.429883 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '398.00', 'LTT': '10:16:26'}
+
+2024-05-02 10:16:27.712703 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.00', 'LTT': '10:16:27'}
+
+2024-05-02 10:16:27.887578 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.20', 'LTT': '10:16:27'}
+
+2024-05-02 10:16:27.905040 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.50', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:27.975152 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.90', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:27.988894 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.20', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:28.145153 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.00', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:28.263561 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.30', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:28.306113 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.90', 'LTT': '10:16:27'}
+
+2024-05-02 10:16:28.490367 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.70', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:28.722612 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.40', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:28.865230 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.25', 'LTT': '10:16:28'}
+
+2024-05-02 10:16:29.164417 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.15', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:29.188674 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.80', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:29.205378 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.25', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:29.478901 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.00', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:29.530133 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.60', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:29.731881 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.65', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:29.860180 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.30', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:29.989482 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.25', 'LTT': '10:16:30'}
+
+2024-05-02 10:16:30.248852 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.00', 'LTT': '10:16:29'}
+
+2024-05-02 10:16:30.347927 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.55', 'LTT': '10:16:30'}
+
+2024-05-02 10:16:30.504362 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.30', 'LTT': '10:16:30'}
+
+2024-05-02 10:16:30.674226 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.30', 'LTT': '10:16:30'}
+
+2024-05-02 10:16:30.724701 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.20', 'LTT': '10:16:30'}
+
+2024-05-02 10:16:30.866584 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.75', 'LTT': '10:16:30'}
+
+2024-05-02 10:16:30.991976 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.05', 'LTT': '10:16:31'}
+
+2024-05-02 10:16:31.317919 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.00', 'LTT': '10:16:30'}
+
+2024-05-02 10:16:31.350386 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.35', 'LTT': '10:16:31'}
+
+2024-05-02 10:16:31.399843 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '457.85', 'LTT': '10:16:31'}
+
+2024-05-02 10:16:31.482340 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.90', 'LTT': '10:16:31'}
+
+2024-05-02 10:16:31.506324 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.85', 'LTT': '10:16:31'}
+
+2024-05-02 10:16:31.686467 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.90', 'LTT': '10:16:31'}
+
+2024-05-02 10:16:31.742151 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.80', 'LTT': '10:16:31'}
+
+2024-05-02 10:16:32.175872 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.00', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:32.291873 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.50', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:32.391866 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.70', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:32.445751 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '457.60', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:32.593905 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.95', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:32.723483 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.25', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:32.875689 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.90', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:32.942382 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.90', 'LTT': '10:16:32'}
+
+2024-05-02 10:16:33.192688 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.75', 'LTT': '10:16:33'}
+
+2024-05-02 10:16:33.375115 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.20', 'LTT': '10:16:33'}
+
+2024-05-02 10:16:33.392972 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '290.85', 'LTT': '10:16:33'}
+
+2024-05-02 10:16:33.601081 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.15', 'LTT': '10:16:33'}
+
+2024-05-02 10:16:33.735762 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.25', 'LTT': '10:16:33'}
+
+2024-05-02 10:16:33.995211 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.65', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.198775 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.10', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.278327 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.60', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.444926 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.70', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.520153 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.00', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.728399 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '505.50', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.870817 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.40', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.912403 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.40', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:34.993594 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.35', 'LTT': '10:16:35'}
+
+2024-05-02 10:16:35.277605 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.00', 'LTT': '10:16:35'}
+
+2024-05-02 10:16:35.415543 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.30', 'LTT': '10:16:35'}
+
+2024-05-02 10:16:35.494992 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.00', 'LTT': '10:16:34'}
+
+2024-05-02 10:16:35.616320 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '458.85', 'LTT': '10:16:35'}
+
+2024-05-02 10:16:35.746105 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.40', 'LTT': '10:16:35'}
+
+2024-05-02 10:16:35.962971 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.15', 'LTT': '10:16:36'}
+
+2024-05-02 10:16:36.288476 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.75', 'LTT': '10:16:36'}
+
+2024-05-02 10:16:36.316445 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.00', 'LTT': '10:16:35'}
+
+2024-05-02 10:16:36.416675 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.15', 'LTT': '10:16:36'}
+
+2024-05-02 10:16:36.547561 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.35', 'LTT': '10:16:35'}
+
+2024-05-02 10:16:36.644412 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.95', 'LTT': '10:16:36'}
+
+2024-05-02 10:16:36.730816 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.70', 'LTT': '10:16:36'}
+
+2024-05-02 10:16:36.963736 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.15', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:37.281175 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.20', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:37.605130 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.55', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:37.721165 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.20', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:37.748134 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.00', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:37.867218 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.70', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:37.867218 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.95', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:37.964426 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.30', 'LTT': '10:16:38'}
+
+2024-05-02 10:16:37.992959 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.05', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:38.297755 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.15', 'LTT': '10:16:38'}
+
+2024-05-02 10:16:38.522846 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.00', 'LTT': '10:16:37'}
+
+2024-05-02 10:16:38.732727 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '505.30', 'LTT': '10:16:38'}
+
+2024-05-02 10:16:38.781610 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '458.85', 'LTT': '10:16:38'}
+
+2024-05-02 10:16:38.882536 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.55', 'LTT': '10:16:38'}
+
+2024-05-02 10:16:39.000585 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.45', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:39.166338 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.15', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:39.485816 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.45', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:39.533766 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.80', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:39.550397 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '370.95', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:39.707952 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.70', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:39.734118 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.00', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:39.859296 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.60', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:40.000549 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.35', 'LTT': '10:16:39'}
+
+2024-05-02 10:16:40.182575 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.00', 'LTT': '10:16:40'}
+
+2024-05-02 10:16:40.516613 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.90', 'LTT': '10:16:40'}
+
+2024-05-02 10:16:40.741391 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.60', 'LTT': '10:16:40'}
+
+2024-05-02 10:16:40.989772 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.15', 'LTT': '10:16:41'}
+
+2024-05-02 10:16:41.068004 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.10', 'LTT': '10:16:41'}
+
+2024-05-02 10:16:41.292077 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '164.70', 'LTT': '10:16:41'}
+
+2024-05-02 10:16:41.332068 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.90', 'LTT': '10:16:40'}
+
+2024-05-02 10:16:41.802194 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.55', 'LTT': '10:16:41'}
+
+2024-05-02 10:16:41.969548 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.90', 'LTT': '10:16:42'}
+
+2024-05-02 10:16:42.004072 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.85', 'LTT': '10:16:42'}
+
+2024-05-02 10:16:42.285764 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.20', 'LTT': '10:16:42'}
+
+2024-05-02 10:16:42.727801 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.35', 'LTT': '10:16:42'}
+
+2024-05-02 10:16:42.742068 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.85', 'LTT': '10:16:42'}
+
+2024-05-02 10:16:42.986847 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.85', 'LTT': '10:16:43'}
+
+2024-05-02 10:16:43.008359 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.10', 'LTT': '10:16:43'}
+
+2024-05-02 10:16:43.036816 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.70', 'LTT': '10:16:42'}
+
+2024-05-02 10:16:43.110802 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.80', 'LTT': '10:16:43'}
+
+2024-05-02 10:16:43.134802 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.90', 'LTT': '10:16:42'}
+
+2024-05-02 10:16:43.294098 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.00', 'LTT': '10:16:43'}
+
+2024-05-02 10:16:43.302096 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.10', 'LTT': '10:16:43'}
+
+2024-05-02 10:16:43.743166 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '508.30', 'LTT': '10:16:43'}
+
+2024-05-02 10:16:43.808432 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '375.05', 'LTT': '10:16:43'}
+
+2024-05-02 10:16:43.920114 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.00', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.010802 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.50', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.085545 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '462.20', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.187122 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.60', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.312550 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.85', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.537313 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.00', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.765098 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.00', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.954799 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.80', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:44.970799 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.45', 'LTT': '10:16:45'}
+
+2024-05-02 10:16:45.014023 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.80', 'LTT': '10:16:45'}
+
+2024-05-02 10:16:45.157213 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '462.40', 'LTT': '10:16:44'}
+
+2024-05-02 10:16:45.291045 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.10', 'LTT': '10:16:45'}
+
+2024-05-02 10:16:45.763504 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.45', 'LTT': '10:16:45'}
+
+2024-05-02 10:16:45.972501 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.60', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:46.012521 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.60', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:46.131030 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.30', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:46.279981 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.30', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:46.308274 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.80', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:46.648882 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '402.80', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:46.757512 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.45', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:46.989779 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.00', 'LTT': '10:16:47'}
+
+2024-05-02 10:16:47.009305 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.00', 'LTT': '10:16:47'}
+
+2024-05-02 10:16:47.122599 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.35', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:47.254675 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '464.50', 'LTT': '10:16:47'}
+
+2024-05-02 10:16:47.290554 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.30', 'LTT': '10:16:47'}
+
+2024-05-02 10:16:47.498322 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.00', 'LTT': '10:16:46'}
+
+2024-05-02 10:16:47.746569 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '168.60', 'LTT': '10:16:47'}
+
+2024-05-02 10:16:47.763212 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.55', 'LTT': '10:16:47'}
+
+2024-05-02 10:16:47.988239 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.95', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:48.019121 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '403.70', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:48.120248 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.10', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:48.320453 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.65', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:48.343154 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.50', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:48.518864 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.45', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:48.727185 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.40', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:48.753786 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.50', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:49.010221 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.30', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:49.042223 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '375.85', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:49.164866 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.00', 'LTT': '10:16:48'}
+
+2024-05-02 10:16:49.300913 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.65', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:49.377428 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.00', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:49.534676 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '168.15', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:49.724480 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.00', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:49.772533 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.95', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:49.900681 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '164.95', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:49.974719 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.55', 'LTT': '10:16:50'}
+
+2024-05-02 10:16:50.011253 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.40', 'LTT': '10:16:50'}
+
+2024-05-02 10:16:50.209009 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.90', 'LTT': '10:16:49'}
+
+2024-05-02 10:16:50.294127 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.70', 'LTT': '10:16:50'}
+
+2024-05-02 10:16:50.467938 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.85', 'LTT': '10:16:50'}
+
+2024-05-02 10:16:50.843752 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.45', 'LTT': '10:16:50'}
+
+2024-05-02 10:16:51.010939 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.00', 'LTT': '10:16:51'}
+
+2024-05-02 10:16:51.302034 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.55', 'LTT': '10:16:51'}
+
+2024-05-02 10:16:51.318029 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.50', 'LTT': '10:16:51'}
+
+2024-05-02 10:16:51.844638 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.30', 'LTT': '10:16:51'}
+
+2024-05-02 10:16:51.979974 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.60', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.012955 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.35', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.310341 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.20', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.313044 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.20', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.321051 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.25', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.509616 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.50', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.553673 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.00', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.756516 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.15', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:52.975429 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.65', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:53.029505 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.35', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:53.138461 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.50', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:53.312038 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.55', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:53.328041 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.65', 'LTT': '10:16:52'}
+
+2024-05-02 10:16:53.613071 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '464.20', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:53.630694 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.10', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:53.764158 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.40', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:53.878405 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.20', 'LTT': '10:16:54'}
+
+2024-05-02 10:16:54.019063 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.45', 'LTT': '10:16:54'}
+
+2024-05-02 10:16:54.314575 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.20', 'LTT': '10:16:54'}
+
+2024-05-02 10:16:54.363816 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '374.00', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:54.549662 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.20', 'LTT': '10:16:54'}
+
+2024-05-02 10:16:54.729471 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.70', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:54.766636 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.00', 'LTT': '10:16:54'}
+
+2024-05-02 10:16:54.915469 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.15', 'LTT': '10:16:53'}
+
+2024-05-02 10:16:54.998048 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.50', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:55.026060 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '404.00', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:55.314808 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.20', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:55.348097 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.00', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:55.506033 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.20', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:55.749575 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.75', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:55.848827 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.35', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:55.990892 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.45', 'LTT': '10:16:56'}
+
+2024-05-02 10:16:56.098814 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.05', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:56.163296 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.95', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:56.215287 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.10', 'LTT': '10:16:56'}
+
+2024-05-02 10:16:56.350245 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.15', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:56.516476 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.35', 'LTT': '10:16:56'}
+
+2024-05-02 10:16:56.524463 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.80', 'LTT': '10:16:55'}
+
+2024-05-02 10:16:56.775119 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '506.25', 'LTT': '10:16:56'}
+
+2024-05-02 10:16:57.000702 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.55', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.107846 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.50', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.313203 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.20', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.329206 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.90', 'LTT': '10:16:56'}
+
+2024-05-02 10:16:57.441645 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.30', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.567780 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.20', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.770048 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '505.00', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.833946 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '281.80', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.875171 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '467.25', 'LTT': '10:16:57'}
+
+2024-05-02 10:16:57.991250 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.35', 'LTT': '10:16:58'}
+
+2024-05-02 10:16:58.026008 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.35', 'LTT': '10:16:58'}
+
+2024-05-02 10:16:58.116855 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.50', 'LTT': '10:16:58'}
+
+2024-05-02 10:16:58.324878 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.20', 'LTT': '10:16:58'}
+
+2024-05-02 10:16:58.634921 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.85', 'LTT': '10:16:58'}
+
+2024-05-02 10:16:58.785673 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.00', 'LTT': '10:16:58'}
+
+2024-05-02 10:16:59.020548 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.90', 'LTT': '10:16:59'}
+
+2024-05-02 10:16:59.202055 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.20', 'LTT': '10:16:59'}
+
+2024-05-02 10:16:59.326863 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.85', 'LTT': '10:16:59'}
+
+2024-05-02 10:16:59.352155 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.05', 'LTT': '10:16:58'}
+
+2024-05-02 10:16:59.551634 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.35', 'LTT': '10:16:59'}
+
+2024-05-02 10:16:59.678492 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.00', 'LTT': '10:16:59'}
+
+2024-05-02 10:16:59.720925 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.45', 'LTT': '10:16:59'}
+
+2024-05-02 10:16:59.815831 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.40', 'LTT': '10:16:59'}
+
+2024-05-02 10:16:59.995509 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.85', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:00.032646 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.85', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:00.340703 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.50', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:00.517958 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.70', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:00.785535 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '499.10', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:01.028315 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '461.50', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:01.154920 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.00', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:01.195293 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:17:01'}
+
+2024-05-02 10:17:01.308832 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.50', 'LTT': '10:17:01'}
+
+2024-05-02 10:17:01.343299 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.95', 'LTT': '10:17:00'}
+
+2024-05-02 10:17:01.527396 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.05', 'LTT': '10:17:01'}
+
+2024-05-02 10:17:01.746130 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '373.90', 'LTT': '10:17:01'}
+
+2024-05-02 10:17:01.773536 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.85', 'LTT': '10:17:01'}
+
+2024-05-02 10:17:01.842811 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.65', 'LTT': '10:17:01'}
+
+2024-05-02 10:17:02.055100 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.05', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:02.203611 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.10', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:02.311255 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.30', 'LTT': '10:17:01'}
+
+2024-05-02 10:17:02.321802 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.70', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:02.346368 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.15', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:02.761278 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.95', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:02.777164 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.30', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:02.826782 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '280.00', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:03.024672 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.10', 'LTT': '10:17:03'}
+
+2024-05-02 10:17:03.048361 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.75', 'LTT': '10:17:03'}
+
+2024-05-02 10:17:03.130564 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.80', 'LTT': '10:17:02'}
+
+2024-05-02 10:17:03.323606 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.25', 'LTT': '10:17:03'}
+
+2024-05-02 10:17:03.340495 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.55', 'LTT': '10:17:03'}
+
+2024-05-02 10:17:03.777800 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.25', 'LTT': '10:17:03'}
+
+2024-05-02 10:17:03.992018 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.20', 'LTT': '10:17:04'}
+
+2024-05-02 10:17:04.222954 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.00', 'LTT': '10:17:04'}
+
+2024-05-02 10:17:04.312346 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.00', 'LTT': '10:17:04'}
+
+2024-05-02 10:17:04.331786 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.00', 'LTT': '10:17:04'}
+
+2024-05-02 10:17:04.563950 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.75', 'LTT': '10:17:03'}
+
+2024-05-02 10:17:04.774768 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.90', 'LTT': '10:17:04'}
+
+2024-05-02 10:17:04.925387 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.95', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:05.009904 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.25', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:05.180464 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.65', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:05.240273 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.55', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:05.241688 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '463.15', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:05.324742 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.55', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:05.791853 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.30', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:06.176728 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.60', 'LTT': '10:17:06'}
+
+2024-05-02 10:17:06.194318 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.90', 'LTT': '10:17:06'}
+
+2024-05-02 10:17:06.326883 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.00', 'LTT': '10:17:06'}
+
+2024-05-02 10:17:06.351363 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.90', 'LTT': '10:17:05'}
+
+2024-05-02 10:17:06.427874 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.80', 'LTT': '10:17:06'}
+
+2024-05-02 10:17:06.791834 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.15', 'LTT': '10:17:06'}
+
+2024-05-02 10:17:06.997969 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.95', 'LTT': '10:17:07'}
+
+2024-05-02 10:17:07.046070 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.10', 'LTT': '10:17:06'}
+
+2024-05-02 10:17:07.294347 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.85', 'LTT': '10:17:07'}
+
+2024-05-02 10:17:07.328096 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.40', 'LTT': '10:17:06'}
+
+2024-05-02 10:17:07.444448 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.00', 'LTT': '10:17:07'}
+
+2024-05-02 10:17:07.528747 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '398.85', 'LTT': '10:17:07'}
+
+2024-05-02 10:17:07.843911 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.25', 'LTT': '10:17:07'}
+
+2024-05-02 10:17:08.203782 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:17:08'}
+
+2024-05-02 10:17:08.344391 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.00', 'LTT': '10:17:07'}
+
+2024-05-02 10:17:08.443823 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.80', 'LTT': '10:17:08'}
+
+2024-05-02 10:17:08.781846 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.50', 'LTT': '10:17:08'}
+
+2024-05-02 10:17:09.228086 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.75', 'LTT': '10:17:09'}
+
+2024-05-02 10:17:09.333753 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.35', 'LTT': '10:17:09'}
+
+2024-05-02 10:17:09.362121 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.80', 'LTT': '10:17:09'}
+
+2024-05-02 10:17:09.445499 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.90', 'LTT': '10:17:09'}
+
+2024-05-02 10:17:09.574119 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.95', 'LTT': '10:17:09'}
+
+2024-05-02 10:17:09.796367 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.65', 'LTT': '10:17:09'}
+
+2024-05-02 10:17:10.015767 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.05', 'LTT': '10:17:10'}
+
+2024-05-02 10:17:10.346406 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.10', 'LTT': '10:17:10'}
+
+2024-05-02 10:17:10.434752 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.65', 'LTT': '10:17:10'}
+
+2024-05-02 10:17:10.531717 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '464.00', 'LTT': '10:17:10'}
+
+2024-05-02 10:17:10.747984 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.50', 'LTT': '10:17:10'}
+
+2024-05-02 10:17:10.788234 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.95', 'LTT': '10:17:10'}
+
+2024-05-02 10:17:11.055001 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.70', 'LTT': '10:17:11'}
+
+2024-05-02 10:17:11.181388 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.35', 'LTT': '10:17:10'}
+
+2024-05-02 10:17:11.247668 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '280.95', 'LTT': '10:17:11'}
+
+2024-05-02 10:17:11.380795 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.25', 'LTT': '10:17:11'}
+
+2024-05-02 10:17:11.562900 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.25', 'LTT': '10:17:11'}
+
+2024-05-02 10:17:11.723564 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.55', 'LTT': '10:17:11'}
+
+2024-05-02 10:17:11.766372 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.00', 'LTT': '10:17:11'}
+
+2024-05-02 10:17:11.782297 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.70', 'LTT': '10:17:11'}
+
+2024-05-02 10:17:12.050352 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.20', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.199324 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.340647 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.75', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.538038 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.30', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.565543 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '375.45', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.765810 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.50', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.798269 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.95', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.932720 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.60', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:12.988632 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.95', 'LTT': '10:17:13'}
+
+2024-05-02 10:17:13.050223 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.65', 'LTT': '10:17:13'}
+
+2024-05-02 10:17:13.166599 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.70', 'LTT': '10:17:12'}
+
+2024-05-02 10:17:13.213618 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.00', 'LTT': '10:17:13'}
+
+2024-05-02 10:17:13.349947 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.25', 'LTT': '10:17:13'}
+
+2024-05-02 10:17:13.937612 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.50', 'LTT': '10:17:13'}
+
+2024-05-02 10:17:14.052112 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.60', 'LTT': '10:17:14'}
+
+2024-05-02 10:17:14.350380 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.25', 'LTT': '10:17:14'}
+
+2024-05-02 10:17:14.402124 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.80', 'LTT': '10:17:14'}
+
+2024-05-02 10:17:14.410144 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.60', 'LTT': '10:17:14'}
+
+2024-05-02 10:17:14.585168 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.30', 'LTT': '10:17:14'}
+
+2024-05-02 10:17:14.767461 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.70', 'LTT': '10:17:14'}
+
+2024-05-02 10:17:14.788121 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '466.00', 'LTT': '10:17:14'}
+
+2024-05-02 10:17:15.033467 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.00', 'LTT': '10:17:15'}
+
+2024-05-02 10:17:15.049460 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.10', 'LTT': '10:17:15'}
+
+2024-05-02 10:17:15.340685 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.00', 'LTT': '10:17:15'}
+
+2024-05-02 10:17:15.409514 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:17:15'}
+
+2024-05-02 10:17:15.451717 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.80', 'LTT': '10:17:15'}
+
+2024-05-02 10:17:15.755508 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.00', 'LTT': '10:17:15'}
+
+2024-05-02 10:17:15.993508 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.15', 'LTT': '10:17:15'}
+
+2024-05-02 10:17:16.017520 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:17:16'}
+
+2024-05-02 10:17:16.057315 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.75', 'LTT': '10:17:16'}
+
+2024-05-02 10:17:16.203088 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.05', 'LTT': '10:17:16'}
+
+2024-05-02 10:17:16.351817 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.00', 'LTT': '10:17:16'}
+
+2024-05-02 10:17:16.501973 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.45', 'LTT': '10:17:16'}
+
+2024-05-02 10:17:16.897952 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.45', 'LTT': '10:17:16'}
+
+2024-05-02 10:17:16.994742 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '499.45', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:17.043731 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.25', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:17.087572 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.35', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:17.344937 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.20', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:17.550975 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.05', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:17.795192 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.00', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:17.811193 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.75', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:17.937316 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.60', 'LTT': '10:17:17'}
+
+2024-05-02 10:17:18.035309 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:17:18'}
+
+2024-05-02 10:17:18.189760 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.85', 'LTT': '10:17:18'}
+
+2024-05-02 10:17:18.246635 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.90', 'LTT': '10:17:18'}
+
+2024-05-02 10:17:18.345620 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.75', 'LTT': '10:17:18'}
+
+2024-05-02 10:17:18.881511 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.75', 'LTT': '10:17:18'}
+
+2024-05-02 10:17:18.940008 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.95', 'LTT': '10:17:18'}
+
+2024-05-02 10:17:19.007659 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.70', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:19.256658 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.85', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:19.356779 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.55', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:19.396759 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.05', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:19.589040 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.65', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:19.658348 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.00', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:19.780932 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.65', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:20.027282 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.95', 'LTT': '10:17:20'}
+
+2024-05-02 10:17:20.143395 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.00', 'LTT': '10:17:19'}
+
+2024-05-02 10:17:20.260393 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.10', 'LTT': '10:17:20'}
+
+2024-05-02 10:17:20.346000 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.20', 'LTT': '10:17:20'}
+
+2024-05-02 10:17:20.705438 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.35', 'LTT': '10:17:20'}
+
+2024-05-02 10:17:20.798471 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.10', 'LTT': '10:17:20'}
+
+2024-05-02 10:17:20.941495 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.95', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.025655 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.85', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.195306 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.50', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.273963 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.90', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.347416 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.05', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.541418 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.45', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.757817 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.30', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.774470 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.05', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:21.807742 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.60', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:22.015164 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.80', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:22.200483 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.90', 'LTT': '10:17:22'}
+
+2024-05-02 10:17:22.270205 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.90', 'LTT': '10:17:22'}
+
+2024-05-02 10:17:22.376416 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.20', 'LTT': '10:17:22'}
+
+2024-05-02 10:17:22.423327 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.50', 'LTT': '10:17:22'}
+
+2024-05-02 10:17:22.591941 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.90', 'LTT': '10:17:22'}
+
+2024-05-02 10:17:22.808919 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.95', 'LTT': '10:17:22'}
+
+2024-05-02 10:17:23.160049 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.00', 'LTT': '10:17:21'}
+
+2024-05-02 10:17:23.248907 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.20', 'LTT': '10:17:23'}
+
+2024-05-02 10:17:23.268280 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.60', 'LTT': '10:17:23'}
+
+2024-05-02 10:17:23.361224 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.35', 'LTT': '10:17:23'}
+
+2024-05-02 10:17:23.424823 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.00', 'LTT': '10:17:23'}
+
+2024-05-02 10:17:23.796945 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '492.95', 'LTT': '10:17:23'}
+
+2024-05-02 10:17:23.859998 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.65', 'LTT': '10:17:23'}
+
+2024-05-02 10:17:23.926669 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '370.00', 'LTT': '10:17:23'}
+
+2024-05-02 10:17:24.193713 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '368.55', 'LTT': '10:17:24'}
+
+2024-05-02 10:17:24.276987 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.80', 'LTT': '10:17:24'}
+
+2024-05-02 10:17:24.362057 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.20', 'LTT': '10:17:24'}
+
+2024-05-02 10:17:24.427159 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.65', 'LTT': '10:17:24'}
+
+2024-05-02 10:17:24.537071 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '169.40', 'LTT': '10:17:24'}
+
+2024-05-02 10:17:24.601697 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.45', 'LTT': '10:17:24'}
+
+2024-05-02 10:17:24.800404 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '492.95', 'LTT': '10:17:24'}
+
+2024-05-02 10:17:24.979580 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '369.25', 'LTT': '10:17:25'}
+
+2024-05-02 10:17:25.237168 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '369.40', 'LTT': '10:17:25'}
+
+2024-05-02 10:17:25.359363 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '455.70', 'LTT': '10:17:25'}
+
+2024-05-02 10:17:25.460869 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.70', 'LTT': '10:17:25'}
+
+2024-05-02 10:17:25.896330 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '493.20', 'LTT': '10:17:25'}
+
+2024-05-02 10:17:26.061475 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '367.45', 'LTT': '10:17:25'}
+
+2024-05-02 10:17:26.212293 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '161.00', 'LTT': '10:17:25'}
+
+2024-05-02 10:17:26.349778 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.45', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:26.412330 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '457.80', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:26.470559 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.60', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:26.629567 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.20', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:26.767012 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '169.45', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:26.767012 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.25', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:26.896243 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '492.25', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:27.031078 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.30', 'LTT': '10:17:26'}
+
+2024-05-02 10:17:27.039078 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '57.20', 'LTT': '10:17:27'}
+
+2024-05-02 10:17:27.363456 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '108.30', 'LTT': '10:17:27'}
+
+2024-05-02 10:17:27.468114 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '456.20', 'LTT': '10:17:27'}
+
+2024-05-02 10:17:27.573494 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '170.00', 'LTT': '10:17:27'}
+
+2024-05-02 10:17:27.807609 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.30', 'LTT': '10:17:27'}
+
+2024-05-02 10:17:28.014110 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '495.00', 'LTT': '10:17:28'}
+
+2024-05-02 10:17:28.151287 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '369.25', 'LTT': '10:17:28'}
+
+2024-05-02 10:17:28.231004 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.25', 'LTT': '10:17:28'}
+
+2024-05-02 10:17:28.323201 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.50', 'LTT': '10:17:28'}
+
+2024-05-02 10:17:28.355204 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '109.40', 'LTT': '10:17:28'}
+
+2024-05-02 10:17:28.556942 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '170.00', 'LTT': '10:17:28'}
+
+2024-05-02 10:17:28.698090 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.65', 'LTT': '10:17:28'}
+
+2024-05-02 10:17:29.016105 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.85', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.066000 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.55', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.097903 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.95', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.231770 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.90', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.360424 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.50', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.583229 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.60', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.599098 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '162.20', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.780292 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.95', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:29.799162 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.20', 'LTT': '10:17:29'}
+
+2024-05-02 10:17:30.032446 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.90', 'LTT': '10:17:30'}
+
+2024-05-02 10:17:30.072443 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.30', 'LTT': '10:17:30'}
+
+2024-05-02 10:17:30.385042 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.30', 'LTT': '10:17:30'}
+
+2024-05-02 10:17:30.436707 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '56.00', 'LTT': '10:17:30'}
+
+2024-05-02 10:17:31.033765 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.60', 'LTT': '10:17:30'}
+
+2024-05-02 10:17:31.068339 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.45', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:31.204501 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.50', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:31.374217 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '110.50', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:31.401293 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.95', 'LTT': '10:17:30'}
+
+2024-05-02 10:17:31.441297 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.80', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:31.709563 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.85', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:31.750465 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.05', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:31.788726 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.65', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:32.026120 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.40', 'LTT': '10:17:31'}
+
+2024-05-02 10:17:32.074765 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.50', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.256581 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.10', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.365687 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.70', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.573642 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.85', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.672516 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.05', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.769631 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '462.00', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.786194 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '406.50', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.802985 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.60', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:32.837003 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.45', 'LTT': '10:17:32'}
+
+2024-05-02 10:17:33.080588 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.35', 'LTT': '10:17:33'}
+
+2024-05-02 10:17:33.379846 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.85', 'LTT': '10:17:33'}
+
+2024-05-02 10:17:33.560307 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.25', 'LTT': '10:17:33'}
+
+2024-05-02 10:17:33.640266 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.00', 'LTT': '10:17:33'}
+
+2024-05-02 10:17:33.824782 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.20', 'LTT': '10:17:33'}
+
+2024-05-02 10:17:34.076313 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.70', 'LTT': '10:17:34'}
+
+2024-05-02 10:17:34.377357 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.35', 'LTT': '10:17:34'}
+
+2024-05-02 10:17:34.571738 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.05', 'LTT': '10:17:33'}
+
+2024-05-02 10:17:34.612056 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.80', 'LTT': '10:17:34'}
+
+2024-05-02 10:17:34.637651 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.25', 'LTT': '10:17:34'}
+
+2024-05-02 10:17:34.779734 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.25', 'LTT': '10:17:34'}
+
+2024-05-02 10:17:34.820212 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.80', 'LTT': '10:17:34'}
+
+2024-05-02 10:17:35.037063 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.45', 'LTT': '10:17:35'}
+
+2024-05-02 10:17:35.122256 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.35', 'LTT': '10:17:34'}
+
+2024-05-02 10:17:35.378769 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.35', 'LTT': '10:17:35'}
+
+2024-05-02 10:17:35.669724 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.45', 'LTT': '10:17:35'}
+
+2024-05-02 10:17:35.837934 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.90', 'LTT': '10:17:35'}
+
+2024-05-02 10:17:36.039804 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.60', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:36.089337 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.55', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:36.372427 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.05', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:36.410618 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.55', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:36.459450 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.05', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:36.806258 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.50', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:37.023072 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '458.55', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:37.048452 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '499.55', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:37.089835 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.30', 'LTT': '10:17:37'}
+
+2024-05-02 10:17:37.278319 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.80', 'LTT': '10:17:37'}
+
+2024-05-02 10:17:37.380676 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.65', 'LTT': '10:17:37'}
+
+2024-05-02 10:17:37.556954 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.25', 'LTT': '10:17:36'}
+
+2024-05-02 10:17:37.639702 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '374.45', 'LTT': '10:17:37'}
+
+2024-05-02 10:17:37.845609 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.05', 'LTT': '10:17:37'}
+
+2024-05-02 10:17:38.029946 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.90', 'LTT': '10:17:38'}
+
+2024-05-02 10:17:38.050429 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '55.20', 'LTT': '10:17:38'}
+
+2024-05-02 10:17:38.074414 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.05', 'LTT': '10:17:38'}
+
+2024-05-02 10:17:38.083754 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.25', 'LTT': '10:17:38'}
+
+2024-05-02 10:17:38.562854 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.65', 'LTT': '10:17:38'}
+
+2024-05-02 10:17:38.764801 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '168.75', 'LTT': '10:17:38'}
+
+2024-05-02 10:17:39.041086 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.00', 'LTT': '10:17:38'}
+
+2024-05-02 10:17:39.117981 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.55', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:39.279709 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.15', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:39.399433 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.40', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:39.617401 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.25', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:39.766873 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '376.85', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:39.774896 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.90', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:39.827009 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.20', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:40.039312 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.60', 'LTT': '10:17:40'}
+
+2024-05-02 10:17:40.184382 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.00', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:40.235182 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.40', 'LTT': '10:17:39'}
+
+2024-05-02 10:17:40.285492 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.00', 'LTT': '10:17:40'}
+
+2024-05-02 10:17:40.394121 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.30', 'LTT': '10:17:40'}
+
+2024-05-02 10:17:40.768618 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.35', 'LTT': '10:17:40'}
+
+2024-05-02 10:17:40.802632 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.30', 'LTT': '10:17:40'}
+
+2024-05-02 10:17:41.062036 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.80', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:41.228306 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.40', 'LTT': '10:17:40'}
+
+2024-05-02 10:17:41.236312 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.00', 'LTT': '10:17:40'}
+
+2024-05-02 10:17:41.291399 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.50', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:41.386706 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.65', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:41.489758 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '398.00', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:41.744789 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.80', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:41.797442 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.10', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:42.052818 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.90', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.252945 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.50', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.299252 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.00', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.315044 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '462.45', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:42.380069 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.55', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.582686 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '463.50', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.644214 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.95', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.778823 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.10', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.795698 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.00', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:42.862291 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.95', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:43.013435 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.35', 'LTT': '10:17:41'}
+
+2024-05-02 10:17:43.088019 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.55', 'LTT': '10:17:43'}
+
+2024-05-02 10:17:43.338239 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '400.00', 'LTT': '10:17:43'}
+
+2024-05-02 10:17:43.370742 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '462.60', 'LTT': '10:17:42'}
+
+2024-05-02 10:17:43.378742 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.10', 'LTT': '10:17:43'}
+
+2024-05-02 10:17:43.493301 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.25', 'LTT': '10:17:43'}
+
+2024-05-02 10:17:43.829815 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.50', 'LTT': '10:17:43'}
+
+2024-05-02 10:17:43.888032 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.40', 'LTT': '10:17:43'}
+
+2024-05-02 10:17:43.996707 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '380.30', 'LTT': '10:17:43'}
+
+2024-05-02 10:17:44.271224 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.55', 'LTT': '10:17:44'}
+
+2024-05-02 10:17:44.363731 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '404.65', 'LTT': '10:17:44'}
+
+2024-05-02 10:17:44.387733 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.25', 'LTT': '10:17:44'}
+
+2024-05-02 10:17:44.431116 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.75', 'LTT': '10:17:44'}
+
+2024-05-02 10:17:44.487877 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.80', 'LTT': '10:17:44'}
+
+2024-05-02 10:17:44.605447 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.65', 'LTT': '10:17:44'}
+
+2024-05-02 10:17:44.880871 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.95', 'LTT': '10:17:44'}
+
+2024-05-02 10:17:44.980974 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.25', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.121828 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.50', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.271999 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.90', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.315568 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '378.05', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.386336 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.15', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.471494 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '464.10', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.511960 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.55', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.715926 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.00', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.868907 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.40', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.919900 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.30', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:45.981629 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.35', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:46.089469 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '377.20', 'LTT': '10:17:46'}
+
+2024-05-02 10:17:46.240591 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.50', 'LTT': '10:17:45'}
+
+2024-05-02 10:17:46.289589 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.55', 'LTT': '10:17:46'}
+
+2024-05-02 10:17:46.383639 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.55', 'LTT': '10:17:46'}
+
+2024-05-02 10:17:46.522227 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.60', 'LTT': '10:17:46'}
+
+2024-05-02 10:17:46.724232 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '400.00', 'LTT': '10:17:46'}
+
+2024-05-02 10:17:46.816154 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.30', 'LTT': '10:17:46'}
+
+2024-05-02 10:17:46.838148 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.40', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:46.983780 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.65', 'LTT': '10:17:46'}
+
+2024-05-02 10:17:47.387500 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.75', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:47.605538 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.60', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:47.605538 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.10', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:47.605538 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '403.95', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:47.605538 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.75', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:47.605538 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '69.65', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:47.833865 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.00', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:47.865865 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.20', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:48.034235 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.10', 'LTT': '10:17:47'}
+
+2024-05-02 10:17:48.150389 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.95', 'LTT': '10:17:48'}
+
+2024-05-02 10:17:48.291631 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '281.90', 'LTT': '10:17:48'}
+
+2024-05-02 10:17:48.394687 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.70', 'LTT': '10:17:48'}
+
+2024-05-02 10:17:48.453290 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.45', 'LTT': '10:17:48'}
+
+2024-05-02 10:17:48.843958 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.00', 'LTT': '10:17:48'}
+
+2024-05-02 10:17:49.302704 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.85', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:49.402692 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.10', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:49.445282 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.70', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:49.602890 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.30', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:49.658898 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.85', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:49.720445 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '466.10', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:49.845384 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.25', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:49.988004 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.80', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:50.144887 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.30', 'LTT': '10:17:49'}
+
+2024-05-02 10:17:50.289761 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.00', 'LTT': '10:17:50'}
+
+2024-05-02 10:17:50.424689 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.70', 'LTT': '10:17:50'}
+
+2024-05-02 10:17:50.660376 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.20', 'LTT': '10:17:50'}
+
+2024-05-02 10:17:50.886863 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.40', 'LTT': '10:17:50'}
+
+2024-05-02 10:17:51.021287 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '462.75', 'LTT': '10:17:51'}
+
+2024-05-02 10:17:51.053135 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.00', 'LTT': '10:17:50'}
+
+2024-05-02 10:17:51.302868 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.80', 'LTT': '10:17:51'}
+
+2024-05-02 10:17:51.602784 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.60', 'LTT': '10:17:51'}
+
+2024-05-02 10:17:51.602784 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.60', 'LTT': '10:17:51'}
+
+2024-05-02 10:17:51.855519 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.50', 'LTT': '10:17:51'}
+
+2024-05-02 10:17:51.979271 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.45', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.061398 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.95', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.396959 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.95', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.438513 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '380.60', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.502567 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.40', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.647120 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.25', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.731146 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '378.70', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.873534 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.60', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:52.979477 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.30', 'LTT': '10:17:52'}
+
+2024-05-02 10:17:53.062792 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 870766, 'LTP': '400.00', 'LTT': '10:17:53'}
+
+2024-05-02 10:17:53.391525 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.40', 'LTT': '10:17:53'}
+
+2024-05-02 10:17:53.543655 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.10', 'LTT': '10:17:53'}
+
+2024-05-02 10:17:53.858666 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '505.50', 'LTT': '10:17:53'}
+
+2024-05-02 10:17:53.991827 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.70', 'LTT': '10:17:53'}
+
+2024-05-02 10:17:54.275436 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.25', 'LTT': '10:17:54'}
+
+2024-05-02 10:17:54.473783 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.75', 'LTT': '10:17:54'}
+
+2024-05-02 10:17:54.518880 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.65', 'LTT': '10:17:54'}
+
+2024-05-02 10:17:54.608313 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.60', 'LTT': '10:17:54'}
+
+2024-05-02 10:17:54.866135 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '505.50', 'LTT': '10:17:54'}
+
+2024-05-02 10:17:55.018127 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '165.75', 'LTT': '10:17:54'}
+
+2024-05-02 10:17:55.018127 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '466.30', 'LTT': '10:17:54'}
+
+2024-05-02 10:17:55.292836 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.85', 'LTT': '10:17:55'}
+
+2024-05-02 10:17:55.292836 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.55', 'LTT': '10:17:55'}
+
+2024-05-02 10:17:55.608743 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.75', 'LTT': '10:17:55'}
+
+2024-05-02 10:17:55.726918 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.75', 'LTT': '10:17:55'}
+
+2024-05-02 10:17:55.858691 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '505.10', 'LTT': '10:17:55'}
+
+2024-05-02 10:17:56.041380 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.35', 'LTT': '10:17:55'}
+
+2024-05-02 10:17:56.065383 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '466.10', 'LTT': '10:17:55'}
+
+2024-05-02 10:17:56.111604 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.35', 'LTT': '10:17:56'}
+
+2024-05-02 10:17:56.327162 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '466.75', 'LTT': '10:17:56'}
+
+2024-05-02 10:17:56.443635 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.05', 'LTT': '10:17:56'}
+
+2024-05-02 10:17:56.467640 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.55', 'LTT': '10:17:56'}
+
+2024-05-02 10:17:56.602475 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.40', 'LTT': '10:17:56'}
+
+2024-05-02 10:17:56.851920 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.75', 'LTT': '10:17:56'}
+
+2024-05-02 10:17:57.119432 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.15', 'LTT': '10:17:57'}
+
+2024-05-02 10:17:57.478643 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.60', 'LTT': '10:17:57'}
+
+2024-05-02 10:17:57.570289 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.65', 'LTT': '10:17:57'}
+
+2024-05-02 10:17:57.596873 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.55', 'LTT': '10:17:57'}
+
+2024-05-02 10:17:57.620865 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.70', 'LTT': '10:17:57'}
+
+2024-05-02 10:17:57.651487 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.35', 'LTT': '10:17:56'}
+
+2024-05-02 10:17:57.761785 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '381.15', 'LTT': '10:17:57'}
+
+2024-05-02 10:17:57.857628 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '505.00', 'LTT': '10:17:58'}
+
+2024-05-02 10:17:58.115058 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.05', 'LTT': '10:17:58'}
+
+2024-05-02 10:17:58.468606 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.75', 'LTT': '10:17:58'}
+
+2024-05-02 10:17:58.569328 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.55', 'LTT': '10:17:58'}
+
+2024-05-02 10:17:58.605998 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.05', 'LTT': '10:17:58'}
+
+2024-05-02 10:17:58.813200 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.15', 'LTT': '10:17:58'}
+
+2024-05-02 10:17:58.875594 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.80', 'LTT': '10:17:58'}
+
+2024-05-02 10:17:58.994968 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.45', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.078439 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '375.20', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.113677 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.05', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.312038 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.45', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.416809 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.85', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.587362 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '284.45', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.670203 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.45', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.862830 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.20', 'LTT': '10:18:00'}
+
+2024-05-02 10:17:59.862830 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.20', 'LTT': '10:17:59'}
+
+2024-05-02 10:17:59.998199 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.90', 'LTT': '10:17:59'}
+
+2024-05-02 10:18:00.032900 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.00', 'LTT': '10:17:59'}
+
+2024-05-02 10:18:00.083658 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.85', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:00.127679 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.60', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:00.415021 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.95', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:00.605856 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '464.10', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:00.668745 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.35', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:00.872424 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.60', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:01.013710 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.90', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:01.056859 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.10', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:01.081700 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.55', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:01.130765 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.55', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:01.399450 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.95', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:01.432947 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.05', 'LTT': '10:18:00'}
+
+2024-05-02 10:18:01.603546 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '464.20', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:01.862538 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.60', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:01.966386 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '378.15', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:02.139111 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.05', 'LTT': '10:18:02'}
+
+2024-05-02 10:18:02.195114 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.30', 'LTT': '10:18:01'}
+
+2024-05-02 10:18:02.614860 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.20', 'LTT': '10:18:02'}
+
+2024-05-02 10:18:02.694088 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.00', 'LTT': '10:18:02'}
+
+2024-05-02 10:18:02.752821 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '282.25', 'LTT': '10:18:02'}
+
+2024-05-02 10:18:02.869880 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.95', 'LTT': '10:18:02'}
+
+2024-05-02 10:18:03.014390 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '378.45', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:03.115815 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.80', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:03.155812 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '407.95', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:03.201207 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.65', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:03.617067 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.95', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:03.800386 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.75', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:03.907200 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.60', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:04.035150 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.70', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:04.127446 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.70', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:04.203821 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.70', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:04.259166 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.85', 'LTT': '10:18:03'}
+
+2024-05-02 10:18:04.309731 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.80', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:04.634676 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.95', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:04.646369 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.80', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:04.856602 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.40', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:04.923001 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.15', 'LTT': '10:18:05'}
+
+2024-05-02 10:18:05.034345 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.05', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:05.126643 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.65', 'LTT': '10:18:05'}
+
+2024-05-02 10:18:05.284709 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.15', 'LTT': '10:18:05'}
+
+2024-05-02 10:18:05.826016 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.75', 'LTT': '10:18:05'}
+
+2024-05-02 10:18:05.860065 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.10', 'LTT': '10:18:05'}
+
+2024-05-02 10:18:05.902067 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.90', 'LTT': '10:18:06'}
+
+2024-05-02 10:18:06.128207 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.85', 'LTT': '10:18:06'}
+
+2024-05-02 10:18:06.422580 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.65', 'LTT': '10:18:06'}
+
+2024-05-02 10:18:06.422580 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.20', 'LTT': '10:18:04'}
+
+2024-05-02 10:18:06.486211 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.10', 'LTT': '10:18:06'}
+
+2024-05-02 10:18:06.661737 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '463.80', 'LTT': '10:18:06'}
+
+2024-05-02 10:18:06.895601 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '502.95', 'LTT': '10:18:06'}
+
+2024-05-02 10:18:06.970783 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.20', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:07.036400 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.85', 'LTT': '10:18:06'}
+
+2024-05-02 10:18:07.181404 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '408.50', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:07.436757 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.80', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:07.476345 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '166.15', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:07.486964 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.10', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:07.738714 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '465.00', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:07.905067 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '503.00', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:08.004367 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '283.45', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:08.146251 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '409.20', 'LTT': '10:18:07'}
+
+2024-05-02 10:18:08.421703 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.55', 'LTT': '10:18:08'}
+
+2024-05-02 10:18:08.602081 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.75', 'LTT': '10:18:08'}
+
+2024-05-02 10:18:08.723728 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.00', 'LTT': '10:18:08'}
+
+2024-05-02 10:18:08.922236 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.95', 'LTT': '10:18:09'}
+
+2024-05-02 10:18:09.036613 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.65', 'LTT': '10:18:08'}
+
+2024-05-02 10:18:09.060589 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.00', 'LTT': '10:18:08'}
+
+2024-05-02 10:18:09.076586 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.10', 'LTT': '10:18:09'}
+
+2024-05-02 10:18:09.168735 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.15', 'LTT': '10:18:09'}
+
+2024-05-02 10:18:09.422275 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.00', 'LTT': '10:18:09'}
+
+2024-05-02 10:18:09.598126 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.55', 'LTT': '10:18:09'}
+
+2024-05-02 10:18:10.000518 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.00', 'LTT': '10:18:09'}
+
+2024-05-02 10:18:10.102264 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.90', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:10.148240 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.85', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:10.246467 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.10', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:10.425066 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.55', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:10.965943 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '165.00', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:10.965943 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.40', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:11.089864 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.00', 'LTT': '10:18:11'}
+
+2024-05-02 10:18:11.133428 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.50', 'LTT': '10:18:11'}
+
+2024-05-02 10:18:11.166672 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.70', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:11.432091 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.70', 'LTT': '10:18:11'}
+
+2024-05-02 10:18:11.448094 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.45', 'LTT': '10:18:10'}
+
+2024-05-02 10:18:11.747912 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '375.00', 'LTT': '10:18:11'}
+
+2024-05-02 10:18:11.924539 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.95', 'LTT': '10:18:11'}
+
+2024-05-02 10:18:11.930918 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.00', 'LTT': '10:18:11'}
+
+2024-05-02 10:18:12.141731 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.70', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:12.183025 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '460.00', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:12.227627 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '288.30', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:12.293450 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.70', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:12.432586 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.90', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:12.477327 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.80', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:12.637386 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.25', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:13.004622 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '461.00', 'LTT': '10:18:12'}
+
+2024-05-02 10:18:13.107104 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.40', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:13.127313 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.80', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:13.266941 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.35', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:13.309053 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.80', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:13.426099 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.65', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:13.528362 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.90', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:13.610510 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.40', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:13.893689 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.40', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:14.061849 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.15', 'LTT': '10:18:13'}
+
+2024-05-02 10:18:14.135920 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.40', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:14.260196 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.60', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:14.335208 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '459.25', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:14.493123 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.70', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:14.620631 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.40', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:14.628633 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '374.80', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:14.652629 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.75', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:14.915094 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.35', 'LTT': '10:18:14'}
+
+2024-05-02 10:18:15.153871 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.65', 'LTT': '10:18:15'}
+
+2024-05-02 10:18:15.360619 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.75', 'LTT': '10:18:15'}
+
+2024-05-02 10:18:15.612380 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.20', 'LTT': '10:18:15'}
+
+2024-05-02 10:18:15.630443 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.55', 'LTT': '10:18:15'}
+
+2024-05-02 10:18:15.662778 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '163.90', 'LTT': '10:18:15'}
+
+2024-05-02 10:18:15.737484 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.70', 'LTT': '10:18:15'}
+
+2024-05-02 10:18:15.897846 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.55', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:16.093347 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.75', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:16.137733 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.90', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:16.413093 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.75', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:16.444132 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.95', 'LTT': '10:18:15'}
+
+2024-05-02 10:18:16.636572 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.30', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:16.647283 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.20', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:16.829597 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.70', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:16.903857 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.35', 'LTT': '10:18:16'}
+
+2024-05-02 10:18:17.108897 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.30', 'LTT': '10:18:17'}
+
+2024-05-02 10:18:17.147396 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '413.05', 'LTT': '10:18:17'}
+
+2024-05-02 10:18:17.264605 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.10', 'LTT': '10:18:17'}
+
+2024-05-02 10:18:17.646974 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.40', 'LTT': '10:18:17'}
+
+2024-05-02 10:18:17.906114 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '498.15', 'LTT': '10:18:18'}
+
+2024-05-02 10:18:18.048604 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '374.95', 'LTT': '10:18:18'}
+
+2024-05-02 10:18:18.130800 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.55', 'LTT': '10:18:18'}
+
+2024-05-02 10:18:18.138799 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.55', 'LTT': '10:18:18'}
+
+2024-05-02 10:18:18.529609 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '286.70', 'LTT': '10:18:18'}
+
+2024-05-02 10:18:18.633494 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.35', 'LTT': '10:18:18'}
+
+2024-05-02 10:18:18.896196 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.10', 'LTT': '10:18:19'}
+
+2024-05-02 10:18:19.158762 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.65', 'LTT': '10:18:19'}
+
+2024-05-02 10:18:19.258719 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.20', 'LTT': '10:18:19'}
+
+2024-05-02 10:18:19.304595 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.15', 'LTT': '10:18:19'}
+
+2024-05-02 10:18:19.652077 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '111.75', 'LTT': '10:18:19'}
+
+2024-05-02 10:18:19.899895 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.00', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.158020 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.40', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.300729 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.10', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.427951 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '458.80', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.629715 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.00', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.650453 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.00', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.738685 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.05', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.872406 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '287.15', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:20.896380 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '497.65', 'LTT': '10:18:20'}
+
+2024-05-02 10:18:21.149781 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '412.75', 'LTT': '10:18:21'}
+
+2024-05-02 10:18:21.303968 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '54.15', 'LTT': '10:18:21'}
+
+2024-05-02 10:18:21.643414 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.15', 'LTT': '10:18:21'}
+
+2024-05-02 10:18:21.842486 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '112.70', 'LTT': '10:18:21'}
+
+2024-05-02 10:18:21.917924 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '499.35', 'LTT': '10:18:21'}
+
+2024-05-02 10:18:22.286766 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.40', 'LTT': '10:18:21'}
+
+2024-05-02 10:18:22.303227 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.85', 'LTT': '10:18:22'}
+
+2024-05-02 10:18:22.370377 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.40', 'LTT': '10:18:22'}
+
+2024-05-02 10:18:22.425147 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '167.35', 'LTT': '10:18:21'}
+
+2024-05-02 10:18:22.453714 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.15', 'LTT': '10:18:22'}
+
+2024-05-02 10:18:22.902510 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '501.25', 'LTT': '10:18:22'}
+
+2024-05-02 10:18:23.056578 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.20', 'LTT': '10:18:22'}
+
+2024-05-02 10:18:23.159606 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '411.30', 'LTT': '10:18:23'}
+
+2024-05-02 10:18:23.455010 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.05', 'LTT': '10:18:23'}
+
+2024-05-02 10:18:23.455010 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.20', 'LTT': '10:18:23'}
+
+2024-05-02 10:18:23.569878 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.45', 'LTT': '10:18:23'}
+
+2024-05-02 10:18:23.778916 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.75', 'LTT': '10:18:23'}
+
+2024-05-02 10:18:23.879210 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.45', 'LTT': '10:18:23'}
+
+2024-05-02 10:18:23.895713 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '500.10', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:24.162766 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.90', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:24.444645 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.55', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:24.460648 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.85', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:24.636696 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '166.80', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:24.652691 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '89.20', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:24.747563 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.30', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:24.904412 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '499.50', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:25.105461 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '53.35', 'LTT': '10:18:25'}
+
+2024-05-02 10:18:25.161777 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.55', 'LTT': '10:18:25'}
+
+2024-05-02 10:18:25.439580 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '113.95', 'LTT': '10:18:25'}
+
+2024-05-02 10:18:25.456462 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '71.05', 'LTT': '10:18:24'}
+
+2024-05-02 10:18:25.515735 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '164.00', 'LTT': '10:18:25'}
+
+2024-05-02 10:18:25.911682 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '285.90', 'LTT': '10:18:25'}
+
+2024-05-02 10:18:25.919407 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '499.20', 'LTT': '10:18:25'}
+
+2024-05-02 10:18:26.105407 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '52.95', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:26.377080 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '410.40', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:26.439128 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '114.55', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:26.461574 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '88.80', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:26.773606 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '468.00', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:26.857716 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '163.50', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:26.905112 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '507.35', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:26.939609 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '280.40', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.038698 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '469.05', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.162411 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.30', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.194417 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '280.85', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.308467 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869808, 'LTP': '380.50', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.446833 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '116.90', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.563319 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '406.00', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.659305 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '164.30', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.683307 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36622, 'LTP': '70.30', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:27.839194 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869576, 'LTP': '468.10', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.939984 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.80', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:27.975803 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '278.00', 'LTT': '10:18:28'}
+
+2024-05-02 10:18:28.058269 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36610, 'LTP': '90.00', 'LTT': '10:18:26'}
+
+2024-05-02 10:18:28.158787 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41312, 'LTP': '50.35', 'LTT': '10:18:28'}
+
+2024-05-02 10:18:28.233803 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '277.95', 'LTT': '10:18:28'}
+
+2024-05-02 10:18:28.470775 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 41302, 'LTP': '117.80', 'LTT': '10:18:28'}
+
+2024-05-02 10:18:28.560475 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43797, 'LTP': '405.30', 'LTT': '10:18:28'}
+
+2024-05-02 10:18:28.641680 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36801, 'LTP': '163.50', 'LTT': '10:18:27'}
+
+2024-05-02 10:18:28.896043 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 36752, 'LTP': '167.55', 'LTT': '10:18:28'}
+
+2024-05-02 10:18:28.914019 - {'type': 'Ticker Data', 'exchange_segment': 2, 'security_id': 43771, 'LTP': '504.85', 'LTT': '10:18:29'}
+
+2024-05-02 10:18:29.043519 - {'type': 'Ticker Data', 'exchange_segment': 8, 'security_id': 869631, 'LTP': '278.60', 'LTT': '10:18:28'}
+
