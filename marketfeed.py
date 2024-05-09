@@ -78,6 +78,25 @@ class DhanFeed:
         if self.on_connect:
             self.connect()
 
+    async def run_once(self):
+        """Connects to the WebSocket and processes messages once."""
+        if not self.ws or self.ws.closed:
+            self.ws = await websockets.connect(WSS_URL)
+            helper = DhanSDKHelper(self)
+            await helper.on_connection_established(self.ws)
+            await self.authorize()
+            await self.subscribe_instruments()
+
+            try:
+                #while True:
+                response = await self.ws.recv()
+                self.data = self.process_data(response)
+                await helper.on_message_received(self.data)
+                #break  # Exit the loop after processing one message
+            except websockets.exceptions.ConnectionClosed:
+                print("Connection has been closed")
+
+
     def run_forever(self):
         """Starts the WebSocket connection and runs the event loop."""
         self.loop.run_until_complete(self.connect())
