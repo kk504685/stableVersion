@@ -1,6 +1,6 @@
 import os, json, glob, sys
 from time import sleep
-from dhanhq import dhanhq
+from dhanhq import dhanhq, marketfeed
 from datetime import datetime
 import ssl, smtplib
 from email.message import EmailMessage
@@ -297,6 +297,7 @@ def securityDetails_2(script_name):
 
     return [security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss]
 
+
 def indexOpenPrice(security_id, nickname, script, script_name):
     global sleepTime
     genericLog("#################################################################################################################################################")
@@ -329,19 +330,59 @@ def apiCall(secId, exchangeSegment, instrumentType, script_name):
     genericLog(rf"apiCall() - {script_name} - {secId}")
     while True:
         sleep(sleepTime)
+        price = dhanData.intraday_daily_minute_charts(
+        security_id = f"{secId}",
+        exchange_segment = f"{exchangeSegment}",
+        instrument_type = f"{instrumentType}"
+        )
+        optionPrice = price['data']['close'][-1]
+        return optionPrice
+
+async def securityPrice(secId, exchangeSegment, instrumentType, script_name):
+    try:
+        return apiCall(secId, exchangeSegment, instrumentType, script_name)
+    except Exception as e:
+        genericLog(rf"apiCall(): {script_name} - Error while calling API, will try through websocket..")
+        print(rf"apiCall(): {script_name} - Error while calling API, will try through websocket..")
+        genericLog(e)
+        genericLog(rf"apiCall({secId}, {exchangeSegment}, {instrumentType}, {script_name})")
         try:
-            price = dhanData.intraday_daily_minute_charts(
-            security_id = f"{secId}",
-            exchange_segment = f"{exchangeSegment}",
-            instrument_type = f"{instrumentType}"
-            )
-            optionPrice = price['data']['close'][-1]
-            return optionPrice
+            genericLog(rf"securityPrice(): {script_name} - Security Id --> {secId}")
+            subscription_code = marketfeed.Ticker
+            genericLog(rf"Subscription code : {subscription_code}")
+
+            if exchangeSegment == 'NSE_FNO':
+                securitiesToTrade = [(2, rf"{str(secId)}")]
+            elif exchangeSegment == 'BSE_FNO':
+                securitiesToTrade = [(8, rf"{str(secId)}")]
+            else:
+                genericLog(rf"Exchange Segment not in configured list - {exchangeSegment}.. process will exit !")
+                sys.exit(0)
+            genericLog(rf"securities to trade: {securitiesToTrade}")
+
+            async def on_connect(instance):
+                genericLog(rf"Connected to websocket")
+
+            async def on_message(instance, message):
+                if message['type'] == 'Ticker Data':
+                    genericLog(message)
+                    instance.LTP = float(message["LTP"])
+                    genericLog(rf"LTP: {instance.LTP}")
+
+            feed = marketfeed.DhanFeed(
+                dataClient['clientId'],
+                dataClient['accessToken'],                                                                                          
+                securitiesToTrade,
+                subscription_code,
+                on_connect=on_connect,
+                on_message=on_message
+                )
+            await feed.run_once()
+            return feed.LTP
         except Exception as e:
-            genericLog(rf"apiCall(): {script_name} - Error while calling API, will attempt again..")
-            print(rf"apiCall(): {script_name} - Error while calling API, will attempt again..")
-            genericLog(e)
-            genericLog(rf"apiCall({secId}, {exchangeSegment}, {instrumentType}, {script_name})")
+            genericLog(rf"securityPrice(): Something went wrong.. Please Check !")
+            print(rf"securityPrice(): Something went wrong.. Please Check !")
+            genericLog(rf"{e}")
 
 def sendEmail(emailSender, emailReceiver, emailPassword, subject, script_name):
     genericLog(rf"sendEmail(): {script_name} - Initiating mail notification")
@@ -417,7 +458,7 @@ def momentumSecDetails(script_name):
     weekday_number = current_datetime.weekday()
     weekday_name = current_datetime.strftime("%A")
 
-    if weekday_number != 6:
+    if weekday_number == 6:
         security_id = 69
         strikePriceGap = 100
         nickname = "BANKEX"
@@ -432,7 +473,7 @@ def momentumSecDetails(script_name):
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
         trailingStopLoss = 100
-        itmPoints = strikePriceGap * 16
+        itmPoints = strikePriceGap * 4
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
         securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints])
@@ -470,7 +511,7 @@ def momentumSecDetails(script_name):
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
         trailingStopLoss = 75
-        itmPoints = strikePriceGap * 12
+        itmPoints = strikePriceGap * 4
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
         securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints])
@@ -489,7 +530,7 @@ def momentumSecDetails(script_name):
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
         trailingStopLoss = 100
-        itmPoints = strikePriceGap * 16
+        itmPoints = strikePriceGap * 10
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
         securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints])
@@ -527,7 +568,7 @@ def momentumSecDetails(script_name):
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
         trailingStopLoss = 100
-        itmPoints = strikePriceGap * 16
+        itmPoints = strikePriceGap * 5
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
         securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints])
