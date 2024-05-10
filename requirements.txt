@@ -38,3 +38,17 @@ asyncio==3.4.3
 psutil==5.9.8
 matplotlib==3.8.4
 mplcursors==0.5.3
+
+setx PATH "%PATH%;C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts"
+pip install --upgrade wheel
+pip install --upgrade appdirs
+pip install --upgrade beautifulsoup4
+pip install --upgrade frozendict
+pip install --upgrade html5lib
+pip install --upgrade lxml
+pip install --upgrade multitasking
+pip install --upgrade peewee
+pip install --upgrade dhanhq
+pip install --upgrade asyncio
+pip install --upgrade websockets
+pip install --upgrade selenium
