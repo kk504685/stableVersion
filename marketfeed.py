@@ -44,6 +44,7 @@ class DhanSDKHelper:
     """Callback function executed when a message is received."""
     async def on_message_received(self, response):
         if self.sdk_instance.on_message:
+            #print(datetime.now())
             await self.sdk_instance.on_message(self.sdk_instance, response)
 
     """Callback function executed when the WebSocket connection is closed."""
@@ -75,8 +76,8 @@ class DhanFeed:
         self.on_connect = on_connect
         self.loop = asyncio.get_event_loop()
 
-        if self.on_connect:
-            self.connect()
+        #if self.on_connect:
+            #self.connect()
 
     async def run_once(self):
         """Connects to the WebSocket and processes messages once."""
