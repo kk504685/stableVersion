@@ -300,9 +300,9 @@ def securityDetails_2(script_name):
 
 async def securityPrice(secId, exchangeSegment, instrumentType, script_name):
     try:
-        genericLog(rf"securityPrice(): {script_name} - Security Id --> {secId}")
+        secId != '13' and genericLog(rf"securityPrice(): {script_name} - Security Id --> {secId}")
         subscription_code = marketfeed.Ticker
-        genericLog(rf"Subscription code : {subscription_code}")
+        secId != '13' and genericLog(rf"Subscription code : {subscription_code}")
 
         if exchangeSegment == 'NSE_FNO':
             securitiesToTrade = [(2, rf"{str(secId)}")]
@@ -313,16 +313,16 @@ async def securityPrice(secId, exchangeSegment, instrumentType, script_name):
         else:
             genericLog(rf"Exchange Segment not in configured list - {exchangeSegment}.. process will exit !")
             sys.exit(0)
-        genericLog(rf"securities to trade: {securitiesToTrade}")
+        secId != '13' and genericLog(rf"securities to trade: {securitiesToTrade}")
 
         async def on_connect(instance):
-            genericLog(rf"Connected to websocket")
+            secId != '13' and genericLog(rf"Connected to websocket")
 
         async def on_message(instance, message):
             if message['type'] == 'Ticker Data':
-                genericLog(message)
+                secId != '13' and genericLog(message)
                 instance.LTP = float(message["LTP"])
-                genericLog(rf"LTP: {instance.LTP}")
+                secId != '13' and genericLog(rf"LTP: {instance.LTP}")
 
         feed = marketfeed.DhanFeed(
             dataClient['clientId'],
@@ -463,11 +463,10 @@ def momentumSecDetails(script_name):
     weekday_number = current_datetime.weekday()
     weekday_name = current_datetime.strftime("%A")
 
-    if weekday_number != 7:
+    if weekday_number == 7:
         security_id = 69
         strikePriceGap = 100
-        priceMovementForEntry_ce = 500
-        priceMovementForEntry_pe = 500
+        trailingStopLoss = [100, 100]
         nickname = "BANKEX"
         exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
@@ -479,17 +478,15 @@ def momentumSecDetails(script_name):
         else:
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
-        trailingStopLoss = [100, 100]
         itmPoints = strikePriceGap * 4
         isTradeCePe = ['CE', 'PE']
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
-        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe, priceMovementForEntry_ce, priceMovementForEntry_pe])
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe])
     if weekday_number != 7:
         security_id = 442
         strikePriceGap = 25
-        priceMovementForEntry_ce = 500
-        priceMovementForEntry_pe = 500
+        trailingStopLoss = [50, 50]
         nickname = "MIDCPNIFTY"
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
@@ -501,17 +498,15 @@ def momentumSecDetails(script_name):
         else:
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
-        trailingStopLoss = [50, 50]
         itmPoints = strikePriceGap * 4
         isTradeCePe = ['CE', 'PE']
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
-        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe, priceMovementForEntry_ce, priceMovementForEntry_pe])
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe])
     if weekday_number != 7:
         security_id = 27
         strikePriceGap = 50
-        priceMovementForEntry_ce = 500
-        priceMovementForEntry_pe = 500
+        trailingStopLoss = [75, 75]
         nickname = "FINNIFTY"
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
@@ -523,17 +518,15 @@ def momentumSecDetails(script_name):
         else:
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
-        trailingStopLoss = [75, 75]
         itmPoints = strikePriceGap * 4
         isTradeCePe = ['CE', 'PE']
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
-        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe, priceMovementForEntry_ce, priceMovementForEntry_pe])
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe])
     if weekday_number != 7:
         security_id = 25
         strikePriceGap = 100
-        priceMovementForEntry_ce = 500
-        priceMovementForEntry_pe = 500
+        trailingStopLoss = [200, 200]
         nickname = "BANKNIFTY"
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
@@ -545,17 +538,15 @@ def momentumSecDetails(script_name):
         else:
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
-        trailingStopLoss = [200, 200]
         itmPoints = strikePriceGap * 10
         isTradeCePe = ['CE', 'PE']
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
-        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe, priceMovementForEntry_ce, priceMovementForEntry_pe])
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe])
     if weekday_number != 7:
         security_id = 13
         strikePriceGap = 50
-        priceMovementForEntry_ce = 500
-        priceMovementForEntry_pe = 500
+        trailingStopLoss = [50, 50]
         nickname = "NIFTY"
         exchangeSegment = 'NSE_FNO'
         instrumentType = 'OPTIDX'
@@ -567,17 +558,15 @@ def momentumSecDetails(script_name):
         else:
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
-        trailingStopLoss = [50, 50]
         itmPoints = strikePriceGap * 8
         isTradeCePe = ['CE', 'PE']
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
-        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe, priceMovementForEntry_ce, priceMovementForEntry_pe])
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe])
     if weekday_number != 7:
         security_id = 51
         strikePriceGap = 100
-        priceMovementForEntry_ce = 500
-        priceMovementForEntry_pe = 500
+        trailingStopLoss = [150, 150]
         nickname = "SENSEX"
         exchangeSegment = 'BSE_FNO'
         instrumentType = 'OPTIDX'
@@ -589,12 +578,11 @@ def momentumSecDetails(script_name):
         else:
             quantity = breakOutLotSize * unit
         breakOutPriceSlippage = 15
-        trailingStopLoss = [100, 100]
         itmPoints = strikePriceGap * 4
         isTradeCePe = ['CE', 'PE']
         genericLog(rf"momentumSecDetails(): {script_name} - quantity entered by user --> {quantity}")
         genericLog(rf"momentumSecDetails(): {script_name} - {weekday_name} --> {nickname}")
-        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe, priceMovementForEntry_ce, priceMovementForEntry_pe])
+        securitiesToTrade.append([security_id, strikePriceGap, nickname, exchangeSegment, instrumentType, unit, quantity, breakOutPriceSlippage, trailingStopLoss, itmPoints, isTradeCePe])
 
     return securitiesToTrade
 
